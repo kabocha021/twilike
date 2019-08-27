@@ -1,26 +1,12 @@
-<?php
-
-?>
-
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>ベースファイル</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/common.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  </head>
-  <body>
-
-
-    <div id="main">
-
-    </div>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"></script> -->
-    <script src ="js/jquery-2.2.2.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>
+<header class="header">
+  <div class="site-width">
+    <h1 class="title">パクッター</h1>
+    <nav class="top-nav">
+      <ul>
+        <li><a class="btn" href="login.php">ログイン</a></li>
+        <li><a class="btn primary" href="logout.php">新規登録</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<body>

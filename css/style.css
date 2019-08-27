@@ -8,7 +8,7 @@ body {
   /* padding: 30px; */
   /* background-color: #f6f7fb; */
   color: #333;
-  /* font-size: 1.2rem; */
+  font-size: 1.2rem;
   font-family: "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
 }
 *, *::before, *::after {
@@ -17,4 +17,249 @@ body {
 a:link, a:visited, a:hover, a:active {
   color: #7C5119;
   text-decoration: none;
+}
+.site-width{
+  width: 970px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.btn.primary{
+  /* border: solid 1px #fff; */
+  background: #5f9ea0;
+}
+/* --------------------------------
+ * ヘッダー
+* -------------------------------- */
+.header{
+  width: 100%;
+  height: 60px;
+  background: #48d1cc;
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.header .title{
+  float: left;
+  font-size: 2rem;
+  line-height: 60px;
+  letter-spacing: 1px;
+  
+}
+.top-nav{
+  position: absolute;
+  right: 0;
+}
+
+.top-nav ul li{
+  /* margin: 10px; */
+  float: left;
+}
+.top-nav ul li a{
+  margin: 10px;
+  padding: 10px;
+  /* height: 60px; */
+  display: inline-block;
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  /* line-height: 40px; */
+  vertical-align: center;
+}
+.top-nav ul li a:hover{
+  /* text-decoration: underline; */
+  /* border-bottom: 1px solid #fff; */
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+/* --------------------------------
+ * TL
+* -------------------------------- */
+#main .title{
+  font-size: 2rem;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+.main-column{
+  width: 660px;
+  float: right;
+  /* padding: 5px; */
+  border: 2px solid #eee;
+  margin-bottom: 20px;
+  max-height: 700px;
+  overflow-y: scroll;
+}
+.whisper-box{
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid #eee;
+}
+.whisper-icon{
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-right:15px;
+}
+.whisper-icon img{
+  width: 100%;
+}
+
+.whisper-contents{
+  float: left;
+  position: relative;
+  width:550px;
+}
+.whisper-contents p{
+  float: left;
+  line-height: 16px;
+}
+
+.whisper-contents .username{
+  width: 150px;
+  font-size: 1.4rem;
+}
+.whisper-contents  .user-id{
+  width: 130px;
+  color: #808080;
+}
+.whisper-contents  .send-date{
+  width: 80px;
+  color: #a9a9a9;
+}
+.whisper-value{
+  /* font-size: 5rem; */
+  /* display: block; */
+  /* float: inherit; */
+  margin-top: 10px;
+  width: 100%;
+}
+.whisper-box.mine .whisper-icon{
+  float: right;
+  margin-right: 0;
+}
+
+/* --------------------------------
+ * SIDEMENU
+* -------------------------------- */
+.side-menu{
+  width: 280px;
+  height: auto;
+  float: left;
+  border: 3px solid #eee;
+  padding: 5px;
+}
+.side-menu .img-box{
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.img-box > img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 100%;
+}
+.prof{
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.prof-info{
+  width: 120px;
+  height: 100px;
+  float: left;
+  padding-top: 10px;
+}
+.prof-info p{
+  /* font-display: inline-block; */
+  line-height: 20px;
+  word-wrap: break-word;
+}
+.prof .username{
+  font-size: 1.4rem;
+}
+.prof .user-id{
+  color: #808080;
+}
+.prof .regist{
+  color: #a9a9a9;
+}
+
+.whisper-text{
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  font-size: 1.4rem;
+  border: 1px solid #ddd;
+  outline: none;
+  border-radius: 7px;
+
+}
+.js-count{
+  font-size: 1.2rem;
+  text-align: right;
+  line-height: 20px;
+}
+
+.whisper-text:focus{
+  box-shadow: 0 0 8px rgba(127, 255, 212, 0.3) inset;
+  /* background: blue; */
+}
+
+
+.img-area{
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  background: #f6f5f4;
+  width: 100%;
+  height: 140px;
+  line-height: 140px;
+  color: rbga(255, 255, 255, 0.3);
+  text-align: center;
+  border-radius: 7px;
+  letter-spacing: 1px;
+}
+.img-area .input-img{
+  width: 100%;
+
+}
+.img-area input[type="file"]{
+  position: absolute;
+  top:0;
+  left: 0;
+  opacity: 0;
+  z-index: 2;
+}
+.send-button{
+  width: 100px;
+  float: right;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  background: #00ced1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 25px;
+}
+
+/* --------------------------------
+ * footer
+* -------------------------------- */
+.footer{
+  width: 100%;
+  height: 30px;
+  background: #333;
+}
+.footer p{
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
 }
