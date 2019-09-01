@@ -1,5 +1,13 @@
 <?php
+  require('function.php');
+  debug('--------------------------------');
+  debug('index.php');
+  debug('--------------------------------');
 
+  if(!auth()){
+    debug('ログイン画面へ遷移');
+    header('location:header.php');
+  }
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -14,137 +22,37 @@
       <div class="main-column">
         
         <div class="whisper-box mine">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn02.png" alt="">
+          <div class="img-box">
+            <img src="img/avator/sample1.png" alt="">
           </div>
           <div class="whisper-contents">
-            <p class="username">さんぷる</p>
-            <p class="user-id">@yuruyuru</p>
+            <p class="username">ゲスト１</p>
             <p class="send-date">2019-08-02</p>
             <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
           </div>
         </div>
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
+
+        <div class="whisper-box other">
+          <div class="img-box">
+            <img src="img/avator/sample1.png" alt="">
           </div>
           <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
+            <p class="username">ゲスト2</p>
+            <p class="send-date">2019-08-02</p>
+            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
           </div>
         </div>
         
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
-        <div class="whisper-box mine">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn02.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">さんぷる</p>
-            <p class="user-id">@yuruyuru</p>
-            <p class="send-date">2019-08-02</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
-        <div class="whisper-box others">
-          <div class="whisper-icon">
-            <img src="img/avator/sp_vsbtn03.png" alt="">
-          </div>
-          <div class="whisper-contents">
-            <p class="username">斎藤</p>
-            <p class="user-id">@saito</p>
-            <p class="send-date">2019-08-01</p>
-            <p class="whisper-value">テストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージテストメッセージ</p>
-          </div>
-        </div>
 
       </div>
       <div class="side-menu">
         <div class="prof">
           <div class="img-box">
-            <img src="img/avator/sp_vsbtn02.png" alt="">
+            <img src="img/avator/sample1.png" alt="">
           </div>
           <div class="prof-info">
-            <p class="username">さんぷる</p>
-            <p class="user-id">@yuruyuru</p>
+            <p class="username">ゲスト1</p>
+            <p class="mail">test@test</p>
             <p class="regist">登録日 2019.08.25</span>
           </div>
         </div>

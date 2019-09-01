@@ -1,0 +1,702 @@
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：セッションID：jjlr1bs0soka2fhcg1ap6m6dvj
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：現在時刻:1567307665
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:14:25 Asia/Tokyo] デバッグ：Email or Passの不一致
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：セッションID：3flbnudi2s0fqc4ruacrr0v5qp
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：現在時刻:1567307673
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:14:33 Asia/Tokyo] デバッグ：Email or Passの不一致
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：セッションID：1iv5rmd6j9vi2srdqlb23fdokb
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：現在時刻:1567307680
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：パスワード一致
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：SQL実行結果:Array
+(
+    [pass] => $2y$10$c2TJ50RtHWJEnJbWcGGdy.17Oox9UIIlyymx2OgkxqhbyfxvWayUC
+    [user_id] => 10
+)
+
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：セッション情報Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:14:40 Asia/Tokyo] デバッグ：トップ画面へ繊維
+[01-Sep-2019 12:17:19 Asia/Tokyo] デバッグ：セッションID：b727r7ktc4fm83bokko0akd6kg
+[01-Sep-2019 12:17:19 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:17:19 Asia/Tokyo] デバッグ：現在時刻:1567307839
+[01-Sep-2019 12:17:19 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:17:19 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:17:21 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:17:21 Asia/Tokyo] デバッグ：regist.php
+[01-Sep-2019 12:17:21 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:21:49 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:21:49 Asia/Tokyo] デバッグ：regist.php
+[01-Sep-2019 12:21:49 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:21:49 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:25:26 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:25:26 Asia/Tokyo] デバッグ：regist.php
+[01-Sep-2019 12:25:26 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:25:26 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:25:26 Asia/Tokyo] デバッグ：ログインユーザのためトップページへ遷移
+[01-Sep-2019 12:25:26 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：セッションID：4i40o8ns0uukdcl2u33jksras1
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：現在時刻:1567308499
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：Email or Passの不一致
+[01-Sep-2019 12:28:19 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:28:21 Asia/Tokyo] デバッグ：セッションID：dsp9nacbnhbm80iae6cpgk46ve
+[01-Sep-2019 12:28:21 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:28:21 Asia/Tokyo] デバッグ：現在時刻:1567308501
+[01-Sep-2019 12:28:21 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:28:21 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:28:21 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:28:26 Asia/Tokyo] デバッグ：セッションID：655vune5d8cva2jd05nk07ac5q
+[01-Sep-2019 12:28:26 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:28:26 Asia/Tokyo] デバッグ：現在時刻:1567308506
+[01-Sep-2019 12:28:26 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:28:26 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:28:26 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:28:33 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:28:33 Asia/Tokyo] デバッグ：regist.php
+[01-Sep-2019 12:28:33 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:28:33 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:28:33 Asia/Tokyo] デバッグ：ログインユーザのためトップページへ遷移
+[01-Sep-2019 12:28:33 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:32:53 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:32:53 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:32:53 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:32:53 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/PH1/function.php:10) in /Applications/MAMP/htdocs/PH1/function.php on line 15
+[01-Sep-2019 12:35:01 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:35:01 Asia/Tokyo] デバッグ：header.php
+[01-Sep-2019 12:35:01 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:35:01 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:35:14 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:35:14 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:35:14 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/PH1/function.php:10) in /Applications/MAMP/htdocs/PH1/function.php on line 15
+[01-Sep-2019 12:41:48 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:41:48 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:41:48 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:44:50 Asia/Tokyo] デバッグ：セッションID：trrt63cp2ckm22bn1un3rleut2
+[01-Sep-2019 12:44:50 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:44:50 Asia/Tokyo] デバッグ：現在時刻:1567309490
+[01-Sep-2019 12:44:50 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:44:50 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:44:50 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:44:50 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:44:50 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:44:51 Asia/Tokyo] デバッグ：セッションID：c50fq7vbv8uc9kog6qqv4r1p72
+[01-Sep-2019 12:44:51 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:44:51 Asia/Tokyo] デバッグ：現在時刻:1567309491
+[01-Sep-2019 12:44:51 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:44:51 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:44:51 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:44:51 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:44:51 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:44:52 Asia/Tokyo] デバッグ：セッションID：eu9rfcj23u8rpmgu4n8c48bg3a
+[01-Sep-2019 12:44:52 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:44:52 Asia/Tokyo] デバッグ：現在時刻:1567309492
+[01-Sep-2019 12:44:52 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:44:52 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:44:52 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:44:52 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:44:52 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:08 Asia/Tokyo] デバッグ：セッションID：ansj9r1q0v2fd9d7n4g99drq6b
+[01-Sep-2019 12:45:08 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:45:08 Asia/Tokyo] デバッグ：現在時刻:1567309508
+[01-Sep-2019 12:45:08 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:45:08 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:45:08 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:08 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:45:08 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:13 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:13 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:45:13 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:18 Asia/Tokyo] デバッグ：セッションID：08vheg5nsds6qpqg81ait3b60h
+[01-Sep-2019 12:45:18 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:45:18 Asia/Tokyo] デバッグ：現在時刻:1567309518
+[01-Sep-2019 12:45:18 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:45:18 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:45:18 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:18 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:45:18 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:19 Asia/Tokyo] デバッグ：セッションID：ffoe29na9npmgb83p4qpuq5b1b
+[01-Sep-2019 12:45:19 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:45:19 Asia/Tokyo] デバッグ：現在時刻:1567309519
+[01-Sep-2019 12:45:19 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:45:19 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:45:19 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:19 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:45:19 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:20 Asia/Tokyo] デバッグ：セッションID：fmocck7dqha1vjttfddc0ora1p
+[01-Sep-2019 12:45:20 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:45:20 Asia/Tokyo] デバッグ：現在時刻:1567309520
+[01-Sep-2019 12:45:20 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:45:20 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:45:20 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:20 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:45:20 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：セッションID：drklek691qedejogl2g47tsj8v
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：現在時刻:1567309531
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：セッションID：jheitqoakuedis79c8rdhft7nf
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+    [login_date] => 1567307680
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：現在時刻:1567309531
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：ログイン期限:1567311280
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:45:31 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:50:25 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:50:25 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:50:25 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:50:26 Asia/Tokyo] デバッグ：セッションID：oangec9hdt8u74j0nmtqmi7r8m
+[01-Sep-2019 12:50:26 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:50:26 Asia/Tokyo] デバッグ：現在時刻:1567309826
+[01-Sep-2019 12:50:26 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:51:14 Asia/Tokyo] デバッグ：セッションID：b74sn5ut2ccf7tqh6s4un9q165
+[01-Sep-2019 12:51:14 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:51:14 Asia/Tokyo] デバッグ：現在時刻:1567309874
+[01-Sep-2019 12:51:14 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：セッションID：tb81mtfehhjj9iaa53qb4r3dg4
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：現在時刻:1567309881
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:51:21 Asia/Tokyo] デバッグ：Email or Passの不一致
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：セッションID：647tko490rmdv56sd4vtlh5r2b
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：現在時刻:1567309884
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：パスワード一致
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：SQL実行結果:Array
+(
+    [pass] => $2y$10$c2TJ50RtHWJEnJbWcGGdy.17Oox9UIIlyymx2OgkxqhbyfxvWayUC
+    [user_id] => 10
+)
+
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：セッション情報Array
+(
+    [login_date] => 1567309884
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：トップ画面へ繊維
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:51:24 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:51:28 Asia/Tokyo] デバッグ：セッションID：jl63tu7rbskhn594uat2gtc6n0
+[01-Sep-2019 12:51:28 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:51:28 Asia/Tokyo] デバッグ：現在時刻:1567309888
+[01-Sep-2019 12:51:28 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:51:32 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:51:32 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:51:32 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:51:33 Asia/Tokyo] デバッグ：セッションID：re074m5d0qokcncgs80us0hqj3
+[01-Sep-2019 12:51:33 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:51:33 Asia/Tokyo] デバッグ：現在時刻:1567309893
+[01-Sep-2019 12:51:33 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：セッションID：h8ed1ec093srfo48p1bgnhrc13
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：現在時刻:1567309900
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:51:40 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:51:41 Asia/Tokyo] デバッグ：Email or Passの不一致
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：セッションID：qdb29no2p25a4k9acu9cp6bepf
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：現在時刻:1567309903
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:51:43 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:51:44 Asia/Tokyo] デバッグ：パスワード一致
+[01-Sep-2019 12:51:44 Asia/Tokyo] デバッグ：SQL実行結果:Array
+(
+    [pass] => $2y$10$c2TJ50RtHWJEnJbWcGGdy.17Oox9UIIlyymx2OgkxqhbyfxvWayUC
+    [user_id] => 10
+)
+
+[01-Sep-2019 12:51:44 Asia/Tokyo] デバッグ：セッション情報Array
+(
+    [login_date] => 1567309904
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:51:44 Asia/Tokyo] デバッグ：トップ画面へ繊維
+[01-Sep-2019 12:51:44 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:51:44 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:51:44 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:53:12 Asia/Tokyo] デバッグ：セッションID：ovjnhfok4p38mmoj5l1rbutg17
+[01-Sep-2019 12:53:12 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:53:12 Asia/Tokyo] デバッグ：現在時刻:1567309992
+[01-Sep-2019 12:53:12 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:53:14 Asia/Tokyo] デバッグ：セッションID：hv3k0rc4ukvbs4ql8kmlbq20e2
+[01-Sep-2019 12:53:14 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:53:14 Asia/Tokyo] デバッグ：現在時刻:1567309994
+[01-Sep-2019 12:53:14 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:53:15 Asia/Tokyo] デバッグ：セッションID：sv0ahsu13gegbdmsprt3e7ioo1
+[01-Sep-2019 12:53:15 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:53:15 Asia/Tokyo] デバッグ：現在時刻:1567309995
+[01-Sep-2019 12:53:15 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:53:15 Asia/Tokyo] デバッグ：セッションID：ir1cum4n05rgg2veptgd57earg
+[01-Sep-2019 12:53:15 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:53:15 Asia/Tokyo] デバッグ：現在時刻:1567309995
+[01-Sep-2019 12:53:15 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:53:16 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:53:16 Asia/Tokyo] デバッグ：regist.php
+[01-Sep-2019 12:53:16 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:53:16 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:53:17 Asia/Tokyo] デバッグ：セッションID：h58p490tlcbr7f745dd4f150gm
+[01-Sep-2019 12:53:17 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:53:17 Asia/Tokyo] デバッグ：現在時刻:1567309997
+[01-Sep-2019 12:53:17 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:53:21 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:53:21 Asia/Tokyo] デバッグ：regist.php
+[01-Sep-2019 12:53:21 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:53:21 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:53:22 Asia/Tokyo] デバッグ：セッションID：a4onci324lko4s29nl1vkndg4s
+[01-Sep-2019 12:53:22 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:53:22 Asia/Tokyo] デバッグ：現在時刻:1567310002
+[01-Sep-2019 12:53:22 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:53:51 Asia/Tokyo] デバッグ：セッションID：52caugpftame1o3cbkvksrltpe
+[01-Sep-2019 12:53:51 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:53:51 Asia/Tokyo] デバッグ：現在時刻:1567310031
+[01-Sep-2019 12:53:51 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:54:11 Asia/Tokyo] デバッグ：セッションID：6e6th2231ktd30uo1b25dgka91
+[01-Sep-2019 12:54:11 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:54:11 Asia/Tokyo] デバッグ：現在時刻:1567310051
+[01-Sep-2019 12:54:11 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:54:11 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:54:11 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：セッションID：9h6js1qoknh1i6afokpeag44mm
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：現在時刻:1567310057
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:54:17 Asia/Tokyo] デバッグ：Email or Passの不一致
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：セッションID：16m8kqgbciq1c05l7pqa4sac92
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：現在時刻:1567310060
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：パスワード一致
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：SQL実行結果:Array
+(
+    [pass] => $2y$10$c2TJ50RtHWJEnJbWcGGdy.17Oox9UIIlyymx2OgkxqhbyfxvWayUC
+    [user_id] => 10
+)
+
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：セッション情報Array
+(
+    [login_date] => 1567310060
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：トップ画面へ繊維
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:54:20 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:58:03 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:58:03 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:58:03 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:58:03 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 12:58:04 Asia/Tokyo] デバッグ：セッションID：si2bdvkihjb760bb7egn84dmls
+[01-Sep-2019 12:58:04 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 12:58:04 Asia/Tokyo] デバッグ：現在時刻:1567310284
+[01-Sep-2019 12:58:04 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:58:09 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:58:09 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:58:09 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:58:09 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:58:09 Asia/Tokyo] デバッグ：ログイン画面へ遷移
+[01-Sep-2019 12:58:09 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/PH1/function.php:10) in /Applications/MAMP/htdocs/PH1/function.php on line 15
+[01-Sep-2019 12:59:21 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:59:21 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:59:21 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:59:21 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:59:21 Asia/Tokyo] デバッグ：ログイン画面へ遷移
+[01-Sep-2019 12:59:21 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/PH1/function.php:10) in /Applications/MAMP/htdocs/PH1/function.php on line 15
+[01-Sep-2019 12:59:31 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:59:31 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 12:59:31 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 12:59:31 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 12:59:31 Asia/Tokyo] デバッグ：ログイン画面へ遷移
+[01-Sep-2019 12:59:31 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/PH1/function.php:10) in /Applications/MAMP/htdocs/PH1/function.php on line 15
+[01-Sep-2019 13:03:00 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:03:00 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:03:00 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 13:03:00 Asia/Tokyo] デバッグ：ログイン画面へ遷移
+[01-Sep-2019 13:03:00 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/PH1/function.php:10) in /Applications/MAMP/htdocs/PH1/function.php on line 15
+[01-Sep-2019 13:03:18 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:03:18 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:03:18 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 13:03:18 Asia/Tokyo] デバッグ：ログイン画面へ遷移
+[01-Sep-2019 13:03:18 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/PH1/function.php:10) in /Applications/MAMP/htdocs/PH1/function.php on line 15
+[01-Sep-2019 13:03:29 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 13:03:29 Asia/Tokyo] デバッグ：ログイン画面へ遷移
+[01-Sep-2019 13:03:29 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/PH1/function.php:10) in /Applications/MAMP/htdocs/PH1/function.php on line 15
+[01-Sep-2019 13:03:38 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:03:38 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:03:38 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:14:53 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:14:53 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:14:53 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:14:53 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 13:14:53 Asia/Tokyo] デバッグ：ログイン画面へ遷移
+[01-Sep-2019 13:15:04 Asia/Tokyo] デバッグ：セッションID：csi3jbkc5ue28cp354l5t9et9m
+[01-Sep-2019 13:15:04 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 13:15:04 Asia/Tokyo] デバッグ：現在時刻:1567311304
+[01-Sep-2019 13:15:04 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 13:15:06 Asia/Tokyo] デバッグ：セッションID：tm2143mdgofn01e2v4f9sl5s70
+[01-Sep-2019 13:15:06 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 13:15:06 Asia/Tokyo] デバッグ：現在時刻:1567311306
+[01-Sep-2019 13:15:06 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：セッションID：m99otfep4ofd0ap7ijjh81ubsj
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：現在時刻:1567311313
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：パスワード一致
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：SQL実行結果:Array
+(
+    [pass] => $2y$10$c2TJ50RtHWJEnJbWcGGdy.17Oox9UIIlyymx2OgkxqhbyfxvWayUC
+    [user_id] => 10
+)
+
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：セッション情報Array
+(
+    [login_date] => 1567311313
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：トップ画面へ繊維
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:15:13 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 13:26:13 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:26:13 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:26:13 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:26:13 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 13:26:22 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:26:22 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:26:22 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:26:22 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 13:29:40 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:29:40 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:29:40 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:29:40 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 13:29:42 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:29:42 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:29:42 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:29:42 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 13:29:43 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:29:43 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:29:43 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:29:43 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 13:30:25 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:30:25 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:30:25 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:30:25 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 13:31:10 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:31:10 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 13:31:10 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 13:31:10 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 14:35:28 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:35:28 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 14:35:28 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:35:28 Asia/Tokyo] デバッグ：ログイン済みだが有効期限切れ
+[01-Sep-2019 14:35:28 Asia/Tokyo] デバッグ：ログイン画面へ遷移
+[01-Sep-2019 14:35:30 Asia/Tokyo] デバッグ：セッションID：hv21tb643vb3oqofcc5csoacao
+[01-Sep-2019 14:35:30 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 14:35:30 Asia/Tokyo] デバッグ：現在時刻:1567316130
+[01-Sep-2019 14:35:30 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 14:35:35 Asia/Tokyo] デバッグ：セッションID：h5t8ar2fv0hqir2djmfq90pbbk
+[01-Sep-2019 14:35:35 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 14:35:35 Asia/Tokyo] デバッグ：現在時刻:1567316135
+[01-Sep-2019 14:35:35 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：セッションID：3ia2q2lbgkk71f0e2nth7lslmp
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：$_SESSION[]:Array
+(
+)
+
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：現在時刻:1567316141
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：未ログインユーザ
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：POST送信開始
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：バリデーションチェック開始
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：未入力チェッククリア
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：ログイン保持チェック:
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：バリデーションチェッククリア
+[01-Sep-2019 14:35:41 Asia/Tokyo] デバッグ：クエリ成功。
+[01-Sep-2019 14:35:42 Asia/Tokyo] デバッグ：パスワード一致
+[01-Sep-2019 14:35:42 Asia/Tokyo] デバッグ：SQL実行結果:Array
+(
+    [pass] => $2y$10$c2TJ50RtHWJEnJbWcGGdy.17Oox9UIIlyymx2OgkxqhbyfxvWayUC
+    [user_id] => 10
+)
+
+[01-Sep-2019 14:35:42 Asia/Tokyo] デバッグ：セッション情報Array
+(
+    [login_date] => 1567316142
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[01-Sep-2019 14:35:42 Asia/Tokyo] デバッグ：トップ画面へ繊維
+[01-Sep-2019 14:35:42 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:35:42 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 14:35:42 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:35:42 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 14:41:26 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:41:26 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 14:41:26 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:41:26 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 14:45:01 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:45:01 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 14:45:01 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:45:01 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 14:47:06 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:47:06 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 14:47:06 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:47:06 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 14:49:58 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:49:58 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 14:49:58 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:49:58 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ
+[01-Sep-2019 14:50:26 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:50:26 Asia/Tokyo] デバッグ：index.php
+[01-Sep-2019 14:50:26 Asia/Tokyo] デバッグ：--------------------------------
+[01-Sep-2019 14:50:26 Asia/Tokyo] デバッグ：ログイン済みかつ有効期限内ユーザ

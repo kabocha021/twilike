@@ -14,6 +14,9 @@ body {
 *, *::before, *::after {
   box-sizing: border-box;
 }
+p,span{
+  line-height: 17px;
+}
 a:link, a:visited, a:hover, a:active {
   color: #7C5119;
   text-decoration: none;
@@ -95,7 +98,7 @@ a:link, a:visited, a:hover, a:active {
   max-height: 700px;
   overflow-y: scroll;
 }
-.whisper-box{
+/* .whisper-box{
   overflow: hidden;
   padding: 5px;
   border: 1px solid #eee;
@@ -108,7 +111,7 @@ a:link, a:visited, a:hover, a:active {
 }
 .whisper-icon img{
   width: 100%;
-}
+} */
 
 .whisper-contents{
   float: left;
@@ -124,18 +127,12 @@ a:link, a:visited, a:hover, a:active {
   width: 150px;
   font-size: 1.4rem;
 }
-.whisper-contents  .user-id{
-  width: 130px;
-  color: #808080;
-}
+
 .whisper-contents  .send-date{
   width: 80px;
   color: #a9a9a9;
 }
 .whisper-value{
-  /* font-size: 5rem; */
-  /* display: block; */
-  /* float: inherit; */
   margin-top: 10px;
   width: 100%;
 }
@@ -155,22 +152,6 @@ a:link, a:visited, a:hover, a:active {
   float: left;
   border: 3px solid #eee;
   padding: 5px;
-}
-.side-menu .img-box{
-  position: relative;
-  overflow: hidden;
-  float: left;
-  margin-right: 10px;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-.img-box > img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  height: 100%;
 }
 .prof{
   margin-bottom: 10px;
@@ -257,6 +238,36 @@ a:link, a:visited, a:hover, a:active {
 }
 
 /* --------------------------------
+ * アイコン
+* -------------------------------- */
+.img-box{
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.whisper-box .img-box{
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin: 10px;
+}
+.side-menu .img-box{
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.img-box > img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 100%;
+}
+/* --------------------------------
  * ログイン画面,ユーザー登録画面
 * -------------------------------- */
 .form-width{
@@ -329,6 +340,7 @@ input[type="password"].common-form.err{
 }
 input[type="submit"].common-form{
   display: inline-block;
+  margin-bottom: 20px;
   width: 150px;
   text-align: center;
   border: 1px solid #eee;
@@ -357,6 +369,11 @@ textarea.common-form{
   background: #fff;
   border: 1px solid #ddd;
   outline: none;
+}
+
+label{
+  display: block;
+  margin-bottom: 10px;
 }
 
 /* --------------------------------
