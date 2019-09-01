@@ -10,7 +10,7 @@ $debug_flg = true;
 function debug($str){
   global $debug_flg;
   if($debug_flg){
-    error_log('デバッグ：'.$str);
+    error_log('deb:' . $str);
   }
 }
 
@@ -37,6 +37,8 @@ function showSession(){
 * -------------------------------- */
 function auth(){
   if(!empty($_SESSION['login_date'])){
+    debug('SESSION情報を表示');
+    debug(print_r($_SESSION,true));
     if($_SESSION['login_date'] + $_SESSION['login_limit'] < time()){
       debug('ログイン済みだが有効期限切れ');
       session_destroy();
@@ -191,10 +193,35 @@ function queryExe($dbh, $sql, $data){
 /* --------------------------------
  * ユーザー情報取得
 * -------------------------------- */
-function getUserInfo($id){
-  
+function getUser($id){
+  try{
+    $dbh = createDBH();
+    $sql = 'SELECT user_id,name,email,avatar,create_date FROM USERS WHERE user_id = :id AND delete_flg = 0';
+    $data = array(':id' => $id);
+    $stmt = queryExe($dbh, $sql, $data);
+    return($stmt->fetch(PDO::FETCH_ASSOC));
+  } catch (Exception $e){
+  error_log('エラー発生:' . $e->getMessage());
+  }
 }
+function getMes($order_flg){
+  $order = ($order_flg === 0) ? 'DESC' : 'ASC';
+  try{
+    $dbh = createDBH();
+    $sql = 'SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date ' .$order ;
 
+    debug('SQL');
+    debug(print_r($sql,true)); 
+    $data = array(':order' => $order);
+    $stmt = queryExe($dbh, $sql, $data);
+    debug('SQLエラーを取得');
+    print_r($stmt->errorInfo(),true);
+    return($stmt->fetchAll());
+
+  } catch (Exception $e){
+  error_log('エラー発生:' . $e->getMessage());
+  }
+}
 /* --------------------------------
  * その他
 * -------------------------------- */

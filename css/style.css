@@ -98,48 +98,59 @@ a:link, a:visited, a:hover, a:active {
   max-height: 700px;
   overflow-y: scroll;
 }
-/* .whisper-box{
-  overflow: hidden;
+.conteiner{
+  width: 640px;
   padding: 5px;
+  display: table;
   border: 1px solid #eee;
 }
-.whisper-icon{
-  float: left;
-  width: 60px;
-  height: 60px;
-  margin-right:15px;
-}
-.whisper-icon img{
-  width: 100%;
-} */
-
-.whisper-contents{
-  float: left;
+/* アイコン */
+.conteiner .img-box{
   position: relative;
-  width:550px;
-}
-.whisper-contents p{
+  overflow: hidden;
   float: left;
-  line-height: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
-
-.whisper-contents .username{
-  width: 150px;
-  font-size: 1.4rem;
+.conteiner .img-box > img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 100%;
 }
-
-.whisper-contents  .send-date{
-  width: 80px;
-  color: #a9a9a9;
-}
-.whisper-value{
-  margin-top: 10px;
-  width: 100%;
-}
-.whisper-box.mine .whisper-icon{
+.conteiner.mine .img-box{
   float: right;
-  margin-right: 0;
+  margin: 0 0 0 10px;
 }
+ /* コメント内容 */
+.info-box{
+  float: left;
+  width: 560px;
+}
+.info-box .name{
+  margin-right: 30px;
+  line-height: 20px;
+}
+.mine .head{
+  overflow: hidden;
+}
+.mine .name{
+  margin-right: 0;
+  margin-left: 30px;
+  float: right;
+}
+.mine .date{
+  float: right;
+}
+.info-box .date{
+  color: #a9a9a9;
+  line-height: 20px;
+}
+
+
 .highlight{
   color: #ff4500;
 }
@@ -240,7 +251,7 @@ a:link, a:visited, a:hover, a:active {
 /* --------------------------------
  * アイコン
 * -------------------------------- */
-.img-box{
+.side-menu .img-box{
   position: relative;
   overflow: hidden;
   float: left;
@@ -248,19 +259,13 @@ a:link, a:visited, a:hover, a:active {
   height: 100px;
   border-radius: 50%;
 }
-.whisper-box .img-box{
-  width: 50px;
-  height: 50px;
-  float: right;
-  margin: 10px;
-}
 .side-menu .img-box{
   width: 100px;
   height: 100px;
   margin-right: 10px;
 }
 
-.img-box > img{
+.side-menu .img-box > img{
   position: absolute;
   top: 50%;
   left: 50%;
