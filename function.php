@@ -64,6 +64,8 @@ function logout(){
 /* --------------------------------
  * 定型分
 * -------------------------------- */
+define('SUC01', 'パスワードを変更しました');
+
 define('ERR01','入力必須項目です');
 define('ERR02','Emailの形式で入力してください');
 define('ERR03','文字以上で入力してください');
@@ -73,6 +75,7 @@ define('ERR06','パスワードが一致しません。');
 define('ERR07','エラー発生しました。しばらくしてからやり直してください');
 define('ERR08','既に登録されているメールアドレスです');
 define('ERR09','メールアドレスまたはパスワードが一致しません');
+define('ERR10', '現在と異なるパスワードを設定してください');
 
 
 
@@ -132,6 +135,26 @@ function validEqual($str1,$str2,$key){
   if($str1 !== $str2){
     global $err_msg;
     $err_msg[$key] = ERR06;
+  }
+  if($str1 === $str2) return true;
+}
+// ログイン中ユーザの現在パスワードチェック
+function validPassCheck($key,$pass){
+  try{
+    $dbh = createDBH();
+    $sql = 'SELECT pass FROM USERS WHERE user_id = :id AND delete_flg = 0';
+    $data = array(':id' => $_SESSION['user_id']);
+    $stmt = queryExe($dbh, $sql, $data);
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    if(password_verify($pass,$result['pass'])){
+      debug('パスワード一致');
+      return true;
+    }
+    debug('パスワード不一致');
+    global $err_msg;
+    $err_msg[$key] = ERR06;
+  }catch (Exception $e){
+  error_log('エラー発生:' . $e->getMessage());
   }
 }
 
@@ -225,3 +248,8 @@ function getMes($order_flg){
 /* --------------------------------
  * その他
 * -------------------------------- */
+//セッションから一回だけ値を取得(取得後は削除する)
+function getOnceMsg($key){
+  if(!empty($_SESSION[$key])) echo $_SESSION[$key];
+  // $_SESSION[$key] = '';
+}

@@ -34,7 +34,16 @@ a:link, a:visited, a:hover, a:active {
 .err{
   color: #ff4500;
 }
+span.err{
+  margin-left: 10px;
+}
 
+i.fas{
+  margin-right: 5px;
+}
+.hidden{
+  display: none;
+}
 /* --------------------------------
  * ヘッダー
 * -------------------------------- */
@@ -294,7 +303,8 @@ a:link, a:visited, a:hover, a:active {
 }
 .regist .title,
 .prof .title,
-.passedit .title{
+.passedit .title,
+.menu .title{
   margin-bottom: 50px;
 }
 
@@ -382,6 +392,22 @@ label{
 }
 
 /* --------------------------------
+ * メニュー
+* -------------------------------- */
+.nav-menu a{
+  font-size: 1.6rem;
+  line-height: 25px;
+}
+.menu .back a{
+  text-align: right;
+  /* color: #333; */
+}
+ .back {
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* --------------------------------
  * reminder用
 * -------------------------------- */
 .reminder span{
@@ -414,4 +440,28 @@ label{
   text-align: center;
   color: #fff;
   letter-spacing: 1px;
+}
+
+/* --------------------------------
+ * メッセージ表示用
+* -------------------------------- */
+#js-show-msg{
+  position: fixed;
+  top: 200px;
+  right: 0;
+  left: 0;
+  margin: auto auto;
+  width: 400px;
+  height: 50px;
+  /* line-height: 100px; */
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+  background: rgba(122, 206, 230, 0.9);
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  z-index: 1;
+  transition: all 500ms;
 }

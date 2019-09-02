@@ -8,6 +8,8 @@
         <li><a class="btn primary" href="regist.php">新規登録</a></li>
         <?php }else{ ?>
         <li><a class="btn" href="logout.php">ログアウト</a></li>
+        <li><a class="btn" href="menu.php">メニュー</a></li>
+
         <?php } ?>
       </ul>
     </nav>

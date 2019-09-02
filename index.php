@@ -37,7 +37,8 @@
           ':date' => date('Y-m-d H:i:s'),
         );
         $stmt = queryExe($dbh, $sql, $data);
-        header('location:index.php');
+        header('location:index.php
+        ');
       } catch (Exception $e){
       error_log('エラー発生:' . $e->getMessage());
       }
@@ -50,9 +51,17 @@
   <?php 
     $pageTitle = '投稿一覧';
     require('head.php');
+  ?>
+   <div id="js-show-msg" class="hidden">
+    <?php debug('セッション情報を表示'); debug(print_r($_SESSION,true)); ?>
+    <?php getOnceMsg('msg_once') ?>
+  </div>
+  <?php
     require('header.php');
   ?>
   <body>
+
+ 
     <main id="main" class="site-width">
       <h2 class="title">投稿一覧</h2>
       <div class="main-column">

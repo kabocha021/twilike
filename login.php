@@ -94,8 +94,8 @@
           <input type="submit" value="ログイン" class="common-form">
         </div>
       </form>      
-      <a href="regist.php" class="link"><i class="fas fa-caret-right"></i> 新規登録はこちら</a>
-      <a href="passwordreminder.php"><i class="fas fa-caret-right" class="link"></i> パスワードをリセット</a>
+      <a href="regist.php" class="link"><i class="fas fa-caret-right"></i>新規登録はこちら</a>
+      <a href="passwordreminder.php"><i class="fas fa-caret-right" class="link"></i>パスワードをリセット</a>
     </main>
 
     <?php 
