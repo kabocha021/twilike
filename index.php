@@ -52,7 +52,7 @@
     $pageTitle = '投稿一覧';
     require('head.php');
   ?>
-   <div id="js-show-msg" class="hidden">
+   <div id="js-show-msg" class="">
     <?php debug('セッション情報を表示'); debug(print_r($_SESSION,true)); ?>
     <?php getOnceMsg('msg_once') ?>
   </div>
