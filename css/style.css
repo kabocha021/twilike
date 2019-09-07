@@ -158,6 +158,9 @@ i.fas{
   color: #a9a9a9;
   line-height: 20px;
 }
+.mine .comment{
+  text-align: right;
+}
 
 
 .highlight{

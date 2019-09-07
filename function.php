@@ -249,7 +249,7 @@ function getMes($order_flg){
  * その他
 * -------------------------------- */
 //セッションから一回だけ値を取得(取得後は削除する)
-function getOnceMsg($key){
+function getSessionMsg($key){
   if(!empty($_SESSION[$key])) echo $_SESSION[$key];
-  // $_SESSION[$key] = '';
+  $_SESSION[$key] = '';
 }

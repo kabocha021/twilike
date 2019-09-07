@@ -52,9 +52,9 @@
     $pageTitle = '投稿一覧';
     require('head.php');
   ?>
+  <?php debug('セッション情報を表示'); debug(print_r($_SESSION,true)); ?>
    <div id="js-show-msg" class="">
-    <?php debug('セッション情報を表示'); debug(print_r($_SESSION,true)); ?>
-    <?php getOnceMsg('msg_once') ?>
+    <?php getSessionMsg('msg_once') ?>
   </div>
   <?php
     require('header.php');
