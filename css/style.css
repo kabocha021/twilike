@@ -44,6 +44,9 @@ i.fas{
 .hidden{
   display: none;
 }
+textarea{
+  resize: none;
+}
 /* --------------------------------
  * ヘッダー
 * -------------------------------- */
@@ -89,6 +92,8 @@ i.fas{
   opacity: 0.8;
   transition: 0.2s;
 }
+
+
 
 /* --------------------------------
  * TL
@@ -208,44 +213,19 @@ i.fas{
   font-size: 1.4rem;
   border: 1px solid #ddd;
   outline: none;
-  border-radius: 7px;
+  border-radius: 5px;
 
 }
-.js-count{
+.text-count{
   font-size: 1.2rem;
   text-align: right;
   line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .whisper-text:focus{
   box-shadow: 0 0 8px rgba(127, 255, 212, 0.3) inset;
   /* background: blue; */
-}
-
-
-.img-area{
-  position: relative;
-  display: block;
-  margin-bottom: 10px;
-  background: #f6f5f4;
-  width: 100%;
-  height: 140px;
-  line-height: 140px;
-  color: rbga(255, 255, 255, 0.3);
-  text-align: center;
-  border-radius: 7px;
-  letter-spacing: 1px;
-}
-.img-area .input-img{
-  width: 100%;
-
-}
-.img-area input[type="file"]{
-  position: absolute;
-  top:0;
-  left: 0;
-  opacity: 0;
-  z-index: 2;
 }
 .send-button{
   width: 100px;
@@ -259,6 +239,60 @@ i.fas{
   font-size: 1.4rem;
   line-height: 25px;
 }
+
+/* --------------------------------
+ * リアルタイムプレビュー
+* -------------------------------- */
+.img-label{
+  overflow: hidden;
+  position: relative;
+}
+.img-area{
+  float: left;
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  background: #f6f5f4;
+  width: 100px;
+  height: 100px;
+  color: rbga(255, 255, 255, 0.3);
+  text-align: center;
+  border-radius: 7px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+.img-area p{
+  padding: 33px 10px 33px 10px;
+}
+.img-area .input-file{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+
+}
+.img-area .avatar-img{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  /* opacity: 0; */
+  z-index: 3;
+}
+.img-label .desc{
+  padding: 10px;
+  float: left;
+}
+.dash{
+  border: 3px dashed #ccc;
+}
+
+
 
 /* --------------------------------
  * アイコン
@@ -430,6 +464,16 @@ label{
   text-align: center;
 }
 
+
+/* --------------------------------
+ * footerを下部に固定
+* -------------------------------- */
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /* --------------------------------
  * footer
 * -------------------------------- */
@@ -437,6 +481,7 @@ label{
   width: 100%;
   height: 30px;
   background: #333;
+  margin-top: auto;
 }
 .footer p{
   line-height: 30px;

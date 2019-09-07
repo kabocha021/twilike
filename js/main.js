@@ -1,44 +1,69 @@
-// $(function(){
-//   console.log('js-stssart')
-//   // フッターを最下部に固定
-//   var $ftr = $('#js-footer');
-//   if( window.innerHeight > $ftr.offset().top + $ftr.outerHeight() ){
-//     $ftr.attr({'style': 'position:fixed; top:' + (window.innerHeight - $ftr.outerHeight()) +'px;' });
-//   }
-// });
-
-  // メッセージを5秒間表示する
-  // console.log('js-message-show')
-  // var $jsShowMsg = $('#js-show-msg');
-  // var msg = $jsShowMsg.text();
-  // if (msg.replace(/^[\s　]+|[\s　]+$/g, "").length) {
-  //   $jsShowMsg.removeClass("hidden");
-  //   setTimeout(function () { $jsShowMsg.addClass("hidden"); },3000)
-
-  // }
-
-
 window.onload = function(){
   // console.log('start js');
 
-  // フッターを画面最下部に固定
-    var $ftr = document.getElementById('js-footer');
-    if( window.innerHeight > $ftr.offset().top + $ftr.outerHeight() ){
-      $ftr.attr({'style': 'position:fixed; top:' + (window.innerHeight - $ftr.outerHeight()) +'px;' });
-    }
-
   // セッションから渡される文字列を表示
   var $msg = document.getElementById("js-show-msg");
-  var text = $msg.textContent;
+  if($msg){
+    var text = $msg.textContent;
 
-  // 正規表現で改行、空白を除去後、文字列が存在する場合はテキストを表示
-  if (text.replace(/\s/g, "").length){
-    $msg.classList.add("show-msg");
+    // 正規表現で改行、空白を除去後、文字列が存在する場合はテキストを表示
+    if (text.replace(/\s/g, "").length){
+      $msg.classList.add("show-msg");
 
-    // 2秒後に表示を隠す
-    setTimeout(function () { $msg.classList.remove("show-msg"); },2000);
+      // 2秒後に表示を隠す
+      setTimeout(function () { $msg.classList.remove("show-msg"); },2000);
+    }
   }
-  // console.log("End js");
+
+  // 投稿時の文字長を表示
+  var $count = document.getElementById("js-count");
+  
+  if($count){
+    $count.addEventListener('keyup',function(){
+
+      var text = this.value;
+      var len = text.length;
+      var $showCount = document.getElementById("show-count");
+      $showCount.textContent = len;
+      
+      // 140字を超えた場合はハイライト用のクラスを追加する
+      if(len > 140){
+        $showCount.classList.add("highlight");
+      }else{
+        $showCount.classList.remove("highlight");
+      }
+    }, false);
+  }
+
+  //ライブプレビュー
+  var $imgLabel = document.querySelector(".img-label");
+  var $inputFile = document.querySelector(".input-file");
+  console.log($inputFile);
+  
+  // ドラッグ中は点線を表示
+  $inputFile.addEventListener('dragover',function(){
+    $imgLabel.classList.add("dash");
+    // console.log($inputFile);
+  });
+  $inputFile.addEventListener('dragleave', function () {
+    $imgLabel.classList.remove("dash");
+    // console.log($inputFile);
+  });
+
+  $inputFile.addEventListener('change',function(){
+    $imgLabel.classList.remove("dash");
+    var file = this.files[0];
+    var $img = this.nextElementSibling;
+    console.log(file);
+    console.log($img);
+    fileReader = new FileReader();
+    fileReader.onload = function(event){
+      console.log(event.target.result);
+      $img.setAttribute("src",event.target.result);
+    };
+    fileReader.readAsDataURL(file);
+  });
+
 };
 
 

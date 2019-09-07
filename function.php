@@ -13,6 +13,25 @@ function debug($str){
     error_log('deb:' . $str);
   }
 }
+/* --------------------------------
+ * 定型分
+* -------------------------------- */
+define('SUC01', 'パスワードを変更しました');
+define('SUC02', 'ユーザ情報を更新しました');
+
+
+define('ERR01','入力必須項目です');
+define('ERR02','Emailの形式で入力してください');
+define('ERR03','文字以上で入力してください');
+define('ERR04','文字以下で入力してください');
+define('ERR05','半角英数字のみ利用可能です');
+define('ERR06','パスワードが一致しません。');
+define('ERR07','エラー発生しました。しばらくしてからやり直してください');
+define('ERR08','既に登録されているメールアドレスです');
+define('ERR09','メールアドレスまたはパスワードが一致しません');
+define('ERR10', '現在と異なるパスワードを設定してください');
+
+
 
 /* --------------------------------
  * セッション
@@ -61,22 +80,6 @@ function logout(){
   session_destroy();
   header('location:login.php');
 }
-/* --------------------------------
- * 定型分
-* -------------------------------- */
-define('SUC01', 'パスワードを変更しました');
-
-define('ERR01','入力必須項目です');
-define('ERR02','Emailの形式で入力してください');
-define('ERR03','文字以上で入力してください');
-define('ERR04','文字以下で入力してください');
-define('ERR05','半角英数字のみ利用可能です');
-define('ERR06','パスワードが一致しません。');
-define('ERR07','エラー発生しました。しばらくしてからやり直してください');
-define('ERR08','既に登録されているメールアドレスです');
-define('ERR09','メールアドレスまたはパスワードが一致しません');
-define('ERR10', '現在と異なるパスワードを設定してください');
-
 
 
 /* --------------------------------
@@ -164,6 +167,7 @@ function validPassCheck($key,$pass){
 * -------------------------------- */
 // サニタイズ
 function sanitize($str){
+  // return $str;
   return htmlspecialchars($str, ENT_QUOTES);
 }
 
@@ -252,4 +256,58 @@ function getMes($order_flg){
 function getSessionMsg($key){
   if(!empty($_SESSION[$key])) echo $_SESSION[$key];
   $_SESSION[$key] = '';
+}
+// 引数が空でない時にechoで出力する
+function echoStr($str){
+  if(!empty($str)) echo sanitize($str);
+}
+
+// ファイルアップロード処理
+function uploadAvatar($file,$key){
+  debug('アップロード処理開始');
+
+  if(isset($file['error']) && is_int($file['error'])){
+    try{
+      switch ($file['error']) {
+        case UPLOAD_ERR_OK: // OK
+            break;
+        case UPLOAD_ERR_NO_FILE:   // ファイル未選択の場合
+            throw new RuntimeException('ファイルが選択されていません');
+        case UPLOAD_ERR_INI_SIZE:  // php.ini定義の最大サイズが超過した場合
+        case UPLOAD_ERR_FORM_SIZE: // フォーム定義の最大サイズ超過した場合
+            throw new RuntimeException('ファイルサイズが大きすぎます');
+        default: // その他の場合
+            throw new RuntimeException('その他のエラーが発生しました');
+      }
+        // $file['mime']の値はブラウザ側で偽装可能なので、MIMEタイプを自前でチェックする
+        // exif_imagetype関数は「IMAGETYPE_GIF」「IMAGETYPE_JPEG」などの定数を返す
+        $type = @exif_imagetype($file['tmp_name']);
+        debug('イメージタイプ:' .print_r($type,true));
+        if (!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG], true)) { 
+            throw new RuntimeException('画像形式が未対応です');
+        }
+
+        // ファイルデータからSHA-1ハッシュを取ってファイル名を決定し、ファイルを保存する
+        // ハッシュ化しておかないとアップロードされたファイル名そのままで保存してしまうと同じファイル名がアップロードされる可能性があり、
+        // DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
+        // image_type_to_extension関数はファイルの拡張子を取得するもの
+        $path = 'img/avatar/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
+        if (!move_uploaded_file($file['tmp_name'], $path)) { //ファイルを移動する
+            throw new RuntimeException('ファイル保存時にエラーが発生しました');
+        }
+        // 保存したファイルパスのパーミッション（権限）を変更する
+        chmod($path, 0644);
+        
+        debug('ファイルは正常にアップロードされました');
+        debug('ファイルパス：'.$path);
+        return $path;
+
+    } catch (RuntimeException $e) {
+
+      debug($e->getMessage());
+      global $err_msg;
+      $err_msg[$key] = $e->getMessage();
+
+    }
+  }
 }

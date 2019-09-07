@@ -1,3 +1,9 @@
+<?php 
+  require('function.php');
+  debug('--------------------------------');
+  debug('menu');
+  debug('--------------------------------');
+ ?>
 <!DOCTYPE html>
 <html lang="ja">
   <?php 

@@ -100,14 +100,14 @@
           </div>
         </div>
         <form action="" method="post">
-          <textarea name="comment" cols="30" rows="10" class="whisper-text" placeholder="メッセージ"></textarea>
-          <p class="js-count">10/140文字</p>
-          <label class="img-area">
+          <textarea name="comment" cols="30" rows="10" id="js-count" class="whisper-text" placeholder="メッセージ"></textarea>
+          <p class="text-count"><span id="show-count">0</span>/140文字</p>
+          <!-- <label class="img-area">
             ドラッグ&ドロップ
-          <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
-          <input class="input-img" type="file" name="img">
+            <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
+            <input class="input-img" type="file" name="img">
             <img src="" alt="" class="img-prev">
-          </label>
+          </label> -->
         <input class="send-button" type="submit" value="つぶやく">
       </form>
     </div>
