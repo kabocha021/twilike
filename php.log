@@ -1272,3 +1272,557 @@ Stack trace:
 [07-Sep-2019 21:41:37 Asia/Tokyo] deb:defult4.jpg
 [07-Sep-2019 21:41:37 Asia/Tokyo] deb:defult4.jpg
 [07-Sep-2019 21:41:37 Asia/Tokyo] deb:email,ユーザ名に変更がないため、更新の必要無し
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:index.php
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:Array
+(
+    [msg_once] => 
+    [login_date] => 1567872121
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:Array
+(
+    [user_id] => 10
+    [name] => admin
+    [email] => admin@admin
+    [avatar] => defult4.jpg
+    [create_date] => 2019-09-01 11:24:28
+)
+
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:SQL
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:投稿一覧
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:Array
+(
+    [0] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => </body></html>
+            [send_date] => 2019-09-07 16:07:30
+        )
+
+    [1] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => aiueo
+            [send_date] => 2019-09-07 16:06:26
+        )
+
+    [2] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => <div> aiueo </div>
+            [send_date] => 2019-09-07 16:06:13
+        )
+
+    [3] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => sdfasdfsdfsdddddddddddd
+            [send_date] => 2019-09-07 10:23:12
+        )
+
+    [4] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => asdfasd
+            [send_date] => 2019-09-07 10:23:06
+        )
+
+    [5] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => aaa
+
+            [send_date] => 2019-09-07 10:18:50
+        )
+
+    [6] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => ああああ
+            [send_date] => 2019-09-01 20:28:21
+        )
+
+    [7] => Array
+        (
+            [user_id] => 3
+            [avatar] => defult1.jpg
+            [name] => admin
+            [comment] => あああああ
+            [send_date] => 2019-09-01 20:28:18
+        )
+
+    [8] => Array
+        (
+            [user_id] => 3
+            [avatar] => defult1.jpg
+            [name] => admin
+            [comment] => テスト
+            [send_date] => 2019-09-01 20:28:16
+        )
+
+    [9] => Array
+        (
+            [user_id] => 11
+            [avatar] => defult2.png
+            [name] => admin
+            [comment] => 5000兆円欲しい！！！！
+            [send_date] => 2019-09-01 20:08:44
+        )
+
+    [10] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:52:16
+        )
+
+    [11] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:50:57
+        )
+
+    [12] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:50:10
+        )
+
+    [13] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:49:00
+        )
+
+    [14] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:47:01
+        )
+
+    [15] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:46:57
+        )
+
+    [16] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => asdfasdfasd
+            [send_date] => 2019-09-01 19:45:28
+        )
+
+    [17] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => SADas
+            [send_date] => 2019-09-01 19:45:24
+        )
+
+    [18] => Array
+        (
+            [user_id] => 3
+            [avatar] => defult1.jpg
+            [name] => admin
+            [comment] => password_hash() は、 アルゴリズムやコスト、ソルトといった情報もハッシュに含めて返すことに注意しましょう。 したがって、ハッシュの検証に必要な情報はすべてそこに含まれていることになります。 これで、検証関数がハッシュの検証をするときに、ソルトやアルゴリズム情報を別の場所から取得する必要がなくなります。
+            [send_date] => 2019-08-01 21:45:56
+        )
+
+    [19] => Array
+        (
+            [user_id] => 3
+            [avatar] => defult1.jpg
+            [name] => admin
+            [comment] => atin2 エンコーディングの組み込みのフォントの場合は 1, 2, 3, 4, 5 のいずれか (数字が大きなほうが、より大きいフォントに対応します)、 あるいは imageloadfont() で登録したフォントの識別子のいずれか。
+            [send_date] => 2019-08-01 21:45:56
+        )
+
+    [20] => Array
+        (
+            [user_id] => 4
+
+            [avatar] => defult2.png
+            [name] => test
+            [comment] => 　米Appleは8月30日（現地時間）、「Apple Watch」のSeries 2およびSeries 3のアルミニウムモデルを対象とする画面交換プログラムを開始したと発表した。「非常にまれな状況下で」画面に亀裂が発生する可能性があると判断したとしている。
+            [send_date] => 2019-08-01 21:45:56
+        )
+
+    [21] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 8月上旬、太平洋を航行中の漁船が世にも奇妙な光景に出くわしました。
+
+青い海に突如現れた茶色。それは陸のようでもありますが、カラコロ音を立てて蠢き、近くに寄ると鼻が曲がるような異臭を漂わせています。よく見ると軽石の集合体で、1個1個は人間の頭ほどの大きさ。それがサンフランシスコ1個ぶん余りの面積を覆っていたのであります！
+            [send_date] => 1995-08-01 21:45:56
+        )
+
+    [22] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => iPhone Xよりはもちろん大きいわけですが、普通に手に持って移動できるし、十分｢モバイル｣と呼べるバッテリーです。これならバックパックにも入るし、ポーチや肩掛けバックにも入ります。基本は持ち運ぶこと前提なので、このサイズ感はありがたい。
+            [send_date] => 1800-08-01 21:45:56
+        )
+
+)
+
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:セッション情報を表示
+[08-Sep-2019 01:18:07 Asia/Tokyo] deb:Array
+(
+    [msg_once] => 
+    [login_date] => 1567872121
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:index.php
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:Array
+(
+    [msg_once] => 
+    [login_date] => 1567872121
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:Array
+(
+    [user_id] => 10
+    [name] => admin
+    [email] => admin@admin
+    [avatar] => defult4.jpg
+    [create_date] => 2019-09-01 11:24:28
+)
+
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:SQL
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:投稿一覧
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:Array
+(
+    [0] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => </body></html>
+            [send_date] => 2019-09-07 16:07:30
+        )
+
+    [1] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => aiueo
+            [send_date] => 2019-09-07 16:06:26
+        )
+
+    [2] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => <div> aiueo </div>
+            [send_date] => 2019-09-07 16:06:13
+        )
+
+    [3] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => sdfasdfsdfsdddddddddddd
+            [send_date] => 2019-09-07 10:23:12
+        )
+
+    [4] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => asdfasd
+            [send_date] => 2019-09-07 10:23:06
+        )
+
+    [5] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => aaa
+
+            [send_date] => 2019-09-07 10:18:50
+        )
+
+    [6] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => ああああ
+            [send_date] => 2019-09-01 20:28:21
+        )
+
+    [7] => Array
+        (
+            [user_id] => 3
+            [avatar] => defult1.jpg
+            [name] => admin
+            [comment] => あああああ
+            [send_date] => 2019-09-01 20:28:18
+        )
+
+    [8] => Array
+        (
+            [user_id] => 3
+            [avatar] => defult1.jpg
+            [name] => admin
+            [comment] => テスト
+            [send_date] => 2019-09-01 20:28:16
+        )
+
+    [9] => Array
+        (
+            [user_id] => 11
+            [avatar] => defult2.png
+            [name] => admin
+            [comment] => 5000兆円欲しい！！！！
+            [send_date] => 2019-09-01 20:08:44
+        )
+
+    [10] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:52:16
+        )
+
+    [11] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:50:57
+        )
+
+    [12] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:50:10
+        )
+
+    [13] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:49:00
+        )
+
+    [14] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:47:01
+        )
+
+    [15] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 拝啓
+
+春陽の候、皆様お変わりなくお過ごしでしょうか。 さて、突然でございますが、貴方に折り入ってご相談したいことがありましてお手紙を差し上げます。
+
+実は貴方様に、天皇になって欲しいのです。
+            [send_date] => 2019-09-01 19:46:57
+        )
+
+    [16] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => asdfasdfasd
+            [send_date] => 2019-09-01 19:45:28
+        )
+
+    [17] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => SADas
+            [send_date] => 2019-09-01 19:45:24
+        )
+
+    [18] => Array
+        (
+            [user_id] => 3
+            [avatar] => defult1.jpg
+            [name] => admin
+            [comment] => password_hash() は、 アルゴリズムやコスト、ソルトといった情報もハッシュに含めて返すことに注意しましょう。 したがって、ハッシュの検証に必要な情報はすべてそこに含まれていることになります。 これで、検証関数がハッシュの検証をするときに、ソルトやアルゴリズム情報を別の場所から取得する必要がなくなります。
+            [send_date] => 2019-08-01 21:45:56
+        )
+
+    [19] => Array
+        (
+            [user_id] => 3
+            [avatar] => defult1.jpg
+            [name] => admin
+            [comment] => atin2 エンコーディングの組み込みのフォントの場合は 1, 2, 3, 4, 5 のいずれか (数字が大きなほうが、より大きいフォントに対応します)、 あるいは imageloadfont() で登録したフォントの識別子のいずれか。
+            [send_date] => 2019-08-01 21:45:56
+        )
+
+    [20] => Array
+        (
+            [user_id] => 4
+
+            [avatar] => defult2.png
+            [name] => test
+            [comment] => 　米Appleは8月30日（現地時間）、「Apple Watch」のSeries 2およびSeries 3のアルミニウムモデルを対象とする画面交換プログラムを開始したと発表した。「非常にまれな状況下で」画面に亀裂が発生する可能性があると判断したとしている。
+            [send_date] => 2019-08-01 21:45:56
+        )
+
+    [21] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => 8月上旬、太平洋を航行中の漁船が世にも奇妙な光景に出くわしました。
+
+青い海に突如現れた茶色。それは陸のようでもありますが、カラコロ音を立てて蠢き、近くに寄ると鼻が曲がるような異臭を漂わせています。よく見ると軽石の集合体で、1個1個は人間の頭ほどの大きさ。それがサンフランシスコ1個ぶん余りの面積を覆っていたのであります！
+            [send_date] => 1995-08-01 21:45:56
+        )
+
+    [22] => Array
+        (
+            [user_id] => 10
+            [avatar] => defult4.jpg
+            [name] => admin
+            [comment] => iPhone Xよりはもちろん大きいわけですが、普通に手に持って移動できるし、十分｢モバイル｣と呼べるバッテリーです。これならバックパックにも入るし、ポーチや肩掛けバックにも入ります。基本は持ち運ぶこと前提なので、このサイズ感はありがたい。
+            [send_date] => 1800-08-01 21:45:56
+        )
+
+)
+
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:セッション情報を表示
+[08-Sep-2019 01:20:26 Asia/Tokyo] deb:Array
+(
+    [msg_once] => 
+    [login_date] => 1567872121
+    [user_id] => 10
+    [login_limit] => 3600
+)
+
