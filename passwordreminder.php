@@ -1,3 +1,10 @@
+<?php 
+  require('function.php');
+  debug('--------------------------------');
+  debug('パスワードリセット');
+  debug('--------------------------------');
+  
+?>
 <!DOCTYPE html>
 <html lang="ja">
   <?php 

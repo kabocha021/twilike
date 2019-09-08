@@ -17,7 +17,7 @@
   // 投稿一覧を取得
   $mesList = getMes(0);
   debug('投稿一覧');
-  debug(print_r($mesList,true));
+  // debug(print_r($mesList,true));
 
   if(!empty($_POST)){
     debug('POST送信開始');
@@ -72,7 +72,7 @@
       ?>
             <div class="conteiner <?php if($value['user_id'] === $_SESSION['user_id']) echo 'mine'; ?>">
               <div class="img-box">
-                <img src="img/avator/<?php echo sanitize($value['avatar']); ?>" alt="">
+                <img src="<?php echo sanitize($value['avatar']); ?>" alt="">
               </div>
               <div class="info-box">
                 <p class="head">
@@ -91,7 +91,7 @@
       <div class="side-menu">
         <div class="prof">
           <div class="img-box">
-            <img src="img/avator/<?php echo sanitize($userInfo['avatar']); ?>" alt="">            
+            <img src="<?php echo sanitize($userInfo['avatar']); ?>" alt="">            
           </div>
           <div class="prof-info">
             <p class="username"><?php echo sanitize($userInfo['name']); ?></p>

@@ -11,7 +11,15 @@
   // ログインユーザ情報を取得
   $userInfo = getUser($_SESSION['user_id']);
   debug('ログインユーザ情報');
+  debug('');
+  debug('FILES情報');
   debug(print_r($userInfo,true));
+
+  $avatar = (empty($_FILES['avatar']['name'])) ? $userInfo['avatar'] : uploadAvatar($_FILES['avatar'],'avatar');
+  debug('--------------------------------');
+  debug('$userInfo[avatart] =' .$userInfo['avatar'] );
+  debug('$avatar =' .$avatar);
+  debug('--------------------------------');
 
   if(!empty($_POST)){
     debug('POST送信開始');
@@ -22,8 +30,6 @@
     
     validEmpty('email',$_POST['email']);
     validEmpty('name',$_POST['name']);
-
-    $avatar = (empty($_POST['avatar'])) ? $userInfo['avatar'] : uploadAvatar($_FILES['avatar'],'avatar');
 
     if(empty($err_msg)){
       debug('空チェッククリア');
@@ -77,7 +83,7 @@
             <p>ドラッグ&ドロップ</p>
             <input type="hidden" name="MAX_FILE_SIZE" value="10485760">
             <input type="file" name="avatar" class="input-file">
-            <img src="<?php if(!empty($userInfo['avatar'])) echo sanitize('img/avator/'.$userInfo['avatar']); ?>" alt="" class="avatar-img">
+            <img src="<?php echoStr($avatar); ?>" alt="" class="avatar-img">
             <!-- <img src="img/avator/defult4.jpg" alt="" class="avatar-img"> -->
           </div>
           <div class="desc">

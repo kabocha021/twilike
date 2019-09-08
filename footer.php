@@ -1,5 +1,5 @@
     <footer id="js-footer" class="footer">
-      <p>Copyright(?) ©︎2019 Sample Site</p>
+      <p>Copyright ©︎2019 Sample Site</p>
     </footer>
   <!-- wrapper??? -->
     <div>
