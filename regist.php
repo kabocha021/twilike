@@ -49,11 +49,12 @@
       //新規ユーザーを登録
       try{
         $dbh = createDBH();
-        $sql = 'INSERT INTO USERS (name, email, pass, create_date) VALUES (:name, :email, :pass, :date)';
+        $sql = 'INSERT INTO USERS (name, email, pass, avatar, create_date) VALUES (:name, :email, :pass, :avatar, :date)';
         $data = array(
           'name' => $name,
           'email' => $email,
           ':pass' => password_hash($pass,PASSWORD_BCRYPT),
+          ':avatar' => 'img/none.png',
           ':date' => date('y-m-d h:i:s'),
         );
         $stmt = queryExe($dbh, $sql, $data);

@@ -18,7 +18,8 @@ function debug($str){
 * -------------------------------- */
 define('SUC01', 'パスワードを変更しました');
 define('SUC02', 'ユーザ情報を更新しました');
-
+define('SUC03', 'メールを送信しました');
+define('SUC04', 'パスワードをリセットしました');
 
 define('ERR01','入力必須項目です');
 define('ERR02','Emailの形式で入力してください');
@@ -30,6 +31,10 @@ define('ERR07','エラー発生しました。しばらくしてからやり直�
 define('ERR08','既に登録されているメールアドレスです');
 define('ERR09','メールアドレスまたはパスワードが一致しません');
 define('ERR10', '現在と異なるパスワードを設定してください');
+define('ERR11', '未登録ユーザーです');
+define('ERR12', 'リセットキーが間違っています');
+define('ERR13', '有効期限切れです');
+
 
 
 
@@ -51,6 +56,13 @@ function showSession(){
   }
 }
 
+// セッション内に格納したメッセージを一回だけ表示
+if(!empty($_SESSION['msg_once'])){
+    echo '<div id="js-show-msg">';
+    echo $_SESSION['msg_once'];
+    echo ' </div>';
+    $_SESSION['msg_once'] ='';
+  }
 /* --------------------------------
  * ログイン認証
 * -------------------------------- */
@@ -176,6 +188,9 @@ function formRemain($key){
   if(!empty($_POST[$key])) echo sanitize($_POST[$key]);
 }
 
+/* --------------------------------
+ * 入力フォームエラー出力用
+* -------------------------------- */
 // 入力フォームエラーチェック用(クラス追加)
 function errDetect($key){
   global $err_msg;
@@ -209,6 +224,7 @@ function queryExe($dbh, $sql, $data){
   if(!$stmt->execute($data)){
     debug('SQL実行エラー');
     debug('SQL：'.print_r($stmt,true));
+    debug(print_r($stmt->errorInfo(),true));
     global $err_msg;
     $err_msg['common'] = ERR07;
     return 0;
@@ -250,12 +266,32 @@ function getMes($order_flg){
   }
 }
 /* --------------------------------
+ * メール送信
+* -------------------------------- */
+function sendMail($from, $to, $subject, $body){
+    if(!empty($to) && !empty($subject) && !empty($body)){
+
+      mb_language("Japanese"); 
+      mb_internal_encoding("UTF-8"); 
+        
+      $result = mb_send_mail($to, $subject, $body, "From: ".$from);
+      if ($result) {
+        debug('メール送信完了');
+      } else {
+        debug('メールの送信に失敗。');
+      }
+    }
+}
+
+/* --------------------------------
  * その他
 * -------------------------------- */
-//セッションから一回だけ値を取得(取得後は削除する)
-function getSessionMsg($key){
-  if(!empty($_SESSION[$key])) echo $_SESSION[$key];
-  $_SESSION[$key] = '';
+function getSessionMsg(){
+  if(!empty($_SESSION['msg_once'])){
+    echo '<div id="js-show-msg">';
+    echo $_SESSION['msg_once'];
+    echo ' </div>';
+  }
 }
 // 引数が空でない時にechoで出力する
 function echoStr($str){
@@ -279,28 +315,23 @@ function uploadAvatar($file,$key){
         default: // その他の場合
             throw new RuntimeException('その他のエラーが発生しました');
       }
-        // $file['mime']の値はブラウザ側で偽装可能なので、MIMEタイプを自前でチェックする
-        // exif_imagetype関数は「IMAGETYPE_GIF」「IMAGETYPE_JPEG」などの定数を返す
-        $type = @exif_imagetype($file['tmp_name']);
-        debug('イメージタイプ:' .print_r($type,true));
-        if (!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG], true)) { 
-            throw new RuntimeException('画像形式が未対応です');
-        }
 
-        // ファイルデータからSHA-1ハッシュを取ってファイル名を決定し、ファイルを保存する
-        // ハッシュ化しておかないとアップロードされたファイル名そのままで保存してしまうと同じファイル名がアップロードされる可能性があり、
-        // DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
-        // image_type_to_extension関数はファイルの拡張子を取得するもの
-        $path = 'img/avatar/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
-        if (!move_uploaded_file($file['tmp_name'], $path)) { //ファイルを移動する
-            throw new RuntimeException('ファイル保存時にエラーが発生しました');
-        }
-        // 保存したファイルパスのパーミッション（権限）を変更する
-        chmod($path, 0644);
-        
-        debug('ファイルは正常にアップロードされました');
-        debug('ファイルパス：'.$path);
-        return $path;
+      // 対応するイメージタイプかチェック
+      $type = @exif_imagetype($file['tmp_name']);
+      debug('イメージタイプ:' .print_r($type,true));
+      if (!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG], true)) { 
+          throw new RuntimeException('画像形式が未対応です');
+      }
+
+      $path = 'img/avatar/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
+      if (!move_uploaded_file($file['tmp_name'], $path)) { 
+          throw new RuntimeException('ファイル保存時にエラーが発生しました');
+      }
+      // 権限を変更
+      chmod($path, 0644);
+      
+      debug('ファイルパス：'.$path);
+      return $path;
 
     } catch (RuntimeException $e) {
 
@@ -310,4 +341,14 @@ function uploadAvatar($file,$key){
 
     }
   }
+}
+
+// ランダム文字列生成
+function makeRandKey($len = 4){
+  $str = 'ABCDEFGHIJLKMNOPQRSTUVWXYZ0123456789';
+  $key = '';
+  for($i = 0; $i < $len; $i++){
+    $key .= $str[mt_rand(0,35)];
+  }
+  return $key;
 }

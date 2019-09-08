@@ -1,0 +1,522 @@
+[08-Sep-2019 12:26:06 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:26:06 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:26:06 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:26:06 Asia/Tokyo] deb:Array
+(
+    [reset_key] => V9CG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567912767
+)
+
+[08-Sep-2019 12:26:06 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:26:06 Asia/Tokyo] deb:空チェッククリア
+[08-Sep-2019 12:26:06 Asia/Tokyo] PHP Notice:  Undefined index: reset_key_limit in /Applications/MAMP/htdocs/PH1/pass_reset.php on line 24
+[08-Sep-2019 12:26:29 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:26:29 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:26:29 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:26:29 Asia/Tokyo] deb:Array
+(
+    [reset_key] => V9CG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567912767
+)
+
+[08-Sep-2019 12:26:29 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:26:29 Asia/Tokyo] deb:空チェッククリア
+[08-Sep-2019 12:29:12 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:29:12 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:29:12 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:29:12 Asia/Tokyo] deb:Array
+(
+    [reset_key] => V9CG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567912767
+)
+
+[08-Sep-2019 12:29:12 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:29:12 Asia/Tokyo] deb:空チェッククリア
+[08-Sep-2019 12:45:10 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:10 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:45:10 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:10 Asia/Tokyo] deb:Array
+(
+)
+
+[08-Sep-2019 12:45:10 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:10 Asia/Tokyo] deb:パスワードリセット
+[08-Sep-2019 12:45:10 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:12 Asia/Tokyo] deb:セッションID：32iv28kagcbegop3dfj8o67i6q
+[08-Sep-2019 12:45:12 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[08-Sep-2019 12:45:12 Asia/Tokyo] deb:現在時刻:1567914312
+[08-Sep-2019 12:45:12 Asia/Tokyo] deb:未ログインユーザ
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:セッションID：dup7d8il3ig1nlr6eetuivo1b7
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:現在時刻:1567914319
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:未ログインユーザ
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:バリデーションチェック開始
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:未入力チェッククリア
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:ログイン保持チェック:
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:バリデーションチェッククリア
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:パスワード一致
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:SQL実行結果:Array
+(
+    [pass] => $2y$10$ysKaqtIu38TYz7KliGSJxOCfxwIEsWYvhhCwX7lXDRdQhqViGq1iG
+    [user_id] => 15
+)
+
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:セッション情報Array
+(
+    [login_date] => 1567914319
+    [user_id] => 15
+    [login_limit] => 3600
+)
+
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:トップ画面へ繊維
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:index.php
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1567914319
+    [user_id] => 15
+    [login_limit] => 3600
+)
+
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/none.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:SQL
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 12:45:19 Asia/Tokyo] deb:投稿一覧
+[08-Sep-2019 12:45:23 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:23 Asia/Tokyo] deb:menu
+[08-Sep-2019 12:45:23 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:25 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:25 Asia/Tokyo] deb:pass_edit.php
+[08-Sep-2019 12:45:25 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:30 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:30 Asia/Tokyo] deb:pass_edit.php
+[08-Sep-2019 12:45:30 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:30 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:45:30 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:30 Asia/Tokyo] deb:パスワード一致
+[08-Sep-2019 12:45:30 Asia/Tokyo] deb:バリデーションチェッククリア
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:パスワード変更完了
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:index.php
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1567914319
+    [user_id] => 15
+    [login_limit] => 3600
+    [msg_once] => パスワードを変更しました
+)
+
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/none.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:SQL
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 12:45:31 Asia/Tokyo] deb:投稿一覧
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:index.php
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1567914319
+    [user_id] => 15
+    [login_limit] => 3600
+    [msg_once] => パスワードを変更しました
+)
+
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/none.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:SQL
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 12:45:37 Asia/Tokyo] deb:投稿一覧
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:index.php
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1567914319
+    [user_id] => 15
+    [login_limit] => 3600
+    [msg_once] => パスワードを変更しました
+)
+
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/none.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:SQL
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 12:45:41 Asia/Tokyo] deb:投稿一覧
+[08-Sep-2019 12:45:43 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:43 Asia/Tokyo] deb:menu
+[08-Sep-2019 12:45:43 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:プロフィール編集
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1567914319
+    [user_id] => 15
+    [login_limit] => 3600
+    [msg_once] => パスワードを変更しました
+)
+
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:FILES情報
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/none.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:$userInfo[avatart] =img/none.png
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:$avatar =img/none.png
+[08-Sep-2019 12:45:47 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:index.php
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1567914319
+    [user_id] => 15
+    [login_limit] => 3600
+    [msg_once] => パスワードを変更しました
+)
+
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/none.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:SQL
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 12:45:49 Asia/Tokyo] deb:投稿一覧
+[08-Sep-2019 12:47:27 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:47:27 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:47:27 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:47:27 Asia/Tokyo] deb:Array
+(
+    [reset_key] => V9CG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567912767
+)
+
+[08-Sep-2019 12:47:27 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:47:27 Asia/Tokyo] deb:空チェッククリア
+[08-Sep-2019 12:48:02 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:02 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:48:02 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:02 Asia/Tokyo] deb:Array
+(
+    [reset_key] => V9CG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567912767
+)
+
+[08-Sep-2019 12:48:02 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:48:06 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:06 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:48:06 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:06 Asia/Tokyo] deb:Array
+(
+    [reset_key] => V9CG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567912767
+)
+
+[08-Sep-2019 12:48:06 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:48:06 Asia/Tokyo] deb:空チェッククリア
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:index.php
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:未ログインユーザ
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 13
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:SQL
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:投稿一覧
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/PH1/index.php on line 69
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:セッションID：s54rvv02agsh4lju45vjlej7ih
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+    [reset_key] => V9CG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567912767
+)
+
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:現在時刻:1567914515
+[08-Sep-2019 12:48:35 Asia/Tokyo] deb:未ログインユーザ
+[08-Sep-2019 12:48:37 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:37 Asia/Tokyo] deb:regist.php
+[08-Sep-2019 12:48:37 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:37 Asia/Tokyo] deb:未ログインユーザ
+[08-Sep-2019 12:48:39 Asia/Tokyo] deb:セッションID：72hfvua199o3oefanghgevtm6u
+[08-Sep-2019 12:48:39 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+    [reset_key] => V9CG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567912767
+)
+
+[08-Sep-2019 12:48:39 Asia/Tokyo] deb:現在時刻:1567914519
+[08-Sep-2019 12:48:39 Asia/Tokyo] deb:未ログインユーザ
+[08-Sep-2019 12:48:40 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:40 Asia/Tokyo] deb:パスワードリセット
+[08-Sep-2019 12:48:40 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:パスワードリセット
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:空チェッククリア
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:バリデーションクリア
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:登録ユーザー
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:リセットキー:G861
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:メール送信完了
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:メール送信処理完了
+[08-Sep-2019 12:48:43 Asia/Tokyo] PHP Warning:  Use of undefined constant SUV03 - assumed 'SUV03' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/PH1/passwordreminder.php on line 46
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:Array
+(
+    [reset_key] => G861
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567916323
+    [msg_once] => SUV03
+)
+
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:43 Asia/Tokyo] deb:Array
+(
+    [reset_key] => G861
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567916323
+    [msg_once] => 
+)
+
+[08-Sep-2019 12:48:51 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:51 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:48:51 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:48:51 Asia/Tokyo] deb:Array
+(
+    [reset_key] => G861
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567916323
+    [msg_once] => 
+)
+
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:Array
+(
+    [reset_key] => G861
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567916323
+    [msg_once] => 
+)
+
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:空チェッククリア
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:リセット処理開始
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:パスワード:81BU
+[08-Sep-2019 12:49:10 Asia/Tokyo] deb:アドレスtakaku.genki021@gmail.com
+[08-Sep-2019 12:49:10 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function assword_hash() in /Applications/MAMP/htdocs/PH1/pass_reset.php:37
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/PH1/pass_reset.php on line 37
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:パスワードリセット画面
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:Array
+(
+    [reset_key] => G861
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1567916323
+    [msg_once] => 
+)
+
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:空チェッククリア
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:リセット処理開始
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:パスワード:O9UW
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:アドレスtakaku.genki021@gmail.com
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:パスワード更新完了
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:メール送信完了
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:メール送信処理完了
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:セッションID：4r0j5jae5tj1jrv6tgr3m7j2d4
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+    [msg_once] => 
+)
+
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:現在時刻:1567914571
+[08-Sep-2019 12:49:31 Asia/Tokyo] deb:未ログインユーザ
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:セッションID：sg1qibnvfhlju4fc1vra35apnq
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+    [msg_once] => 
+)
+
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:現在時刻:1567914599
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:未ログインユーザ
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:POST送信開始
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:バリデーションチェック開始
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:未入力チェッククリア
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:ログイン保持チェック:
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:バリデーションチェッククリア
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:パスワード一致
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:SQL実行結果:Array
+(
+    [pass] => $2y$10$e7SPGBK.3LQ1sEBUj7X3YuaS4.5fbgdH5SEJdxYY.pyCRrOBxVntm
+    [user_id] => 15
+)
+
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:セッション情報Array
+(
+    [msg_once] => 
+    [login_date] => 1567914599
+    [user_id] => 15
+    [login_limit] => 3600
+)
+
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:トップ画面へ繊維
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:index.php
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:--------------------------------
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:SESSION情報を表示
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:Array
+(
+    [msg_once] => 
+    [login_date] => 1567914599
+    [user_id] => 15
+    [login_limit] => 3600
+)
+
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:ログインユーザ情報
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/none.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:SQL
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:クエリ成功。
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:SQLエラーを取得
+[08-Sep-2019 12:49:59 Asia/Tokyo] deb:投稿一覧

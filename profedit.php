@@ -70,9 +70,6 @@
   require('head.php');
   require('header.php');
   ?>
-  <div id="js-show-msg" class="">
-    <?php getSessionMsg('msg_once') ?>
-  </div>
   <body>
     <main class="form-width prof">
       <h1 class="title">ユーザー情報変更</h1>
