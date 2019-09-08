@@ -14,12 +14,20 @@
   debug('ログインユーザ情報');
   debug(print_r($userInfo,true));
 
+  // GETパラメータで表示を制御
+  $search = (empty($_GET['search'])) ? '' : $_GET['search'];
+  if(isset($_GET['sort'])) $sort = ($_GET['sort'] === '2') ? 1 : 0;
+    else $sort = 0;
+  debug('検索値:' .$search);
+  debug('並び順:'.$sort);
+
   // 投稿一覧を取得
-  $mesList = getMes(0);
+  $mesList = getMes($search,$sort);
   debug('投稿一覧');
   // debug(print_r($mesList,true));
 
-  if(!empty($_POST)){
+  // 投稿された場合
+  if(isset($_POST['whisper'])){
     debug('POST送信開始');
 
     $err_msg;
@@ -59,9 +67,8 @@
 
  
     <main id="main" class="site-width">
-      <h2 class="title">投稿一覧</h2>
       <div class="main-column">
-
+      <h2 class="title">投稿一覧</h2>
       <?php 
         if(!empty($mesList)){
           foreach($mesList as $key => $value):
@@ -86,6 +93,7 @@
       </div>
       <div class="side-menu">
         <div class="prof">
+        <h2 class="title">プロフィール</h2>
           <div class="img-box">
             <img src="<?php echo sanitize($userInfo['avatar']); ?>" alt="">            
           </div>
@@ -98,15 +106,27 @@
         <form action="" method="post">
           <textarea name="comment" cols="30" rows="10" id="js-count" class="whisper-text" placeholder="メッセージ"></textarea>
           <p class="text-count"><span id="show-count">0</span>/140文字</p>
-          <!-- <label class="img-area">
-            ドラッグ&ドロップ
-            <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
-            <input class="input-img" type="file" name="img">
-            <img src="" alt="" class="img-prev">
-          </label> -->
-        <input class="send-button" type="submit" value="つぶやく">
-      </form>
-    </div>
+          <div class="block">
+            <input class="send-button" type="submit" value="つぶやく" name="whisper">
+          </div>
+        </form>
+        <h2 class="title">検索</h2>
+        <form action="" method="get">
+          <p class="err"><?php showErrMsg('name'); ?></p>
+          <input type="text" name="search" class="search-text" placeholder="検索したいワード">
+          <div class="selectbox">
+            <select name="sort" class="select-sort">
+            input
+              <option value="0" >並び順</option>
+              <option value="1" >新しい順</option>
+              <option value="2" >古い順</option>
+            </select>
+          </div>
+          <div class="block">
+            <input class="send-button" type="submit" value="検索">
+          </div>
+        </form>
+      </div>
   </main>
 
     <?php 

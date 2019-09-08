@@ -51,6 +51,7 @@
           if($stmt){
             debug('更新完了');
             $_SESSION['msg_once'] = SUC02;
+            header('location:index.php');
           }else{
             debug('クエリ失敗');
             $err_msg['common'] = ERR07;

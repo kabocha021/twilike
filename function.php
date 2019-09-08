@@ -247,15 +247,21 @@ function getUser($id){
   error_log('エラー発生:' . $e->getMessage());
   }
 }
-function getMes($order_flg){
-  $order = ($order_flg === 0) ? 'DESC' : 'ASC';
+function getMes($serch,$orderFlg){
+  debug('getMes(search) =' .$serch);
+  $order = ($orderFlg === 0) ? 'DESC' : 'ASC';
   try{
     $dbh = createDBH();
-    $sql = 'SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date ' .$order ;
+    if(!empty($serch)){
+      $sql = 'SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.comment LIKE :serch AND C.delete_flg = 0 ORDER BY send_date ' .$order ;
 
+      $data = array(':serch' => '%'.$serch.'%');
+    }else{
+      $sql = 'SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date ' .$order ;
+      $data = array();
+    }
     debug('SQL');
     debug(print_r($sql,true)); 
-    $data = array(':order' => $order);
     $stmt = queryExe($dbh, $sql, $data);
     debug('SQLエラーを取得');
     print_r($stmt->errorInfo(),true);
