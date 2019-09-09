@@ -206,7 +206,8 @@ function showErrMsg($key){
  * DB
 * -------------------------------- */
 function CreateDBH(){
-  $dsn = 'mysql:dbname=Portfolio1;host=localhost;charset=utf8';
+
+  $dsn = ($debug_flg === 'true') ? 'mysql:dbname=Portfolio1;host=localhost;charset=utf8' : 'mysql:dbname=LAA1093375-portfolio1;host=mysql140.phy.lolipop.lan;charset=utf8';
   $user = 'root';
   $password = 'root';
   $options = array(
