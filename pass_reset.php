@@ -41,7 +41,8 @@
             debug('パスワード更新完了');
 
             // メール送信設定
-            $from = 'webwervice.takaku@gmail.com';
+            // 1の時は本番設定
+            $from = sender();
             $to = $email;
             $subject = "【重要なお知らせ】パスワード再発行完了 : ポートフォリオ用サービス";
             $body = <<<EOF

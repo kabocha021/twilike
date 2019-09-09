@@ -25,7 +25,7 @@
           debug('リセットキー:'.$reset_key);
 
           // メール送信設定
-          $from = 'webwervice.takaku@gmail.com';
+          $from = sender();
           $to = $email;
           $subject = "【重要なお知らせ】パスワード再発行認証 : ポートフォリオ用サービス";
           $body = <<<EOF

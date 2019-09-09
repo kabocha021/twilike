@@ -302,6 +302,11 @@ function sendMail($from, $to, $subject, $body){
       }
     }
 }
+function sender(){
+  global $debug_flg;
+  if($debug_flg === true) return 'info@takahisa.work';
+  return 'webwervice.takaku@gmail.com';
+}
 
 /* --------------------------------
  * その他

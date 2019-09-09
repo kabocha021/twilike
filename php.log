@@ -1290,3 +1290,200 @@ Stack trace:
 
 [09-Sep-2019 21:30:39 Asia/Tokyo] deb:現在時刻:1568032239
 [09-Sep-2019 21:30:39 Asia/Tokyo] deb:未ログインユーザ
+[09-Sep-2019 22:02:18 Asia/Tokyo] deb:セッションID：sh63neli6v4i9q2gh5p7qus8so
+[09-Sep-2019 22:02:18 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[09-Sep-2019 22:02:18 Asia/Tokyo] deb:現在時刻:1568034138
+[09-Sep-2019 22:02:18 Asia/Tokyo] deb:未ログインユーザ
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:セッションID：89le23ece4fo7c5psbmlb66rro
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:現在時刻:1568034142
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:未ログインユーザ
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:POST送信開始
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:バリデーションチェック開始
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:未入力チェッククリア
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:ログイン保持チェック:
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:バリデーションチェッククリア
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:本番環境
+[09-Sep-2019 22:02:22 Asia/Tokyo] deb:DSN = mysql:dbname=LAA1093375-portfolio1;host=mysql140.phy.lolipop.lan;charset=utf8
+[09-Sep-2019 22:02:22 Asia/Tokyo] エラー発生:SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:セッションID：jetv92uv2ii42fjcm3j0vijtm9
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:現在時刻:1568034144
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:未ログインユーザ
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:POST送信開始
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:バリデーションチェック開始
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:未入力チェッククリア
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:ログイン保持チェック:
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:バリデーションチェッククリア
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:本番環境
+[09-Sep-2019 22:02:24 Asia/Tokyo] deb:DSN = mysql:dbname=LAA1093375-portfolio1;host=mysql140.phy.lolipop.lan;charset=utf8
+[09-Sep-2019 22:02:24 Asia/Tokyo] エラー発生:SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:セッションID：mje005dftv55q5pbnr8ib6emod
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:現在時刻:1568034148
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:未ログインユーザ
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:POST送信開始
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:バリデーションチェック開始
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:未入力チェッククリア
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:ログイン保持チェック:
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:バリデーションチェッククリア
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:本番環境
+[09-Sep-2019 22:02:28 Asia/Tokyo] deb:DSN = mysql:dbname=LAA1093375-portfolio1;host=mysql140.phy.lolipop.lan;charset=utf8
+[09-Sep-2019 22:02:28 Asia/Tokyo] エラー発生:SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:セッションID：60jn3nsr54qc8qiqvrlqjl9uo3
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:現在時刻:1568034157
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:未ログインユーザ
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:POST送信開始
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:バリデーションチェック開始
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:未入力チェッククリア
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:ログイン保持チェック:
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:バリデーションチェッククリア
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:検証環境
+[09-Sep-2019 22:02:37 Asia/Tokyo] deb:クエリ成功。
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:パスワード一致
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:SQL実行結果:Array
+(
+    [pass] => $2y$10$C2P32hzzpcF7JoxvUOeakuNAmY3kwIrst7AqMNan2IMFfW5woSht6
+    [user_id] => 15
+)
+
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:セッション情報Array
+(
+    [login_date] => 1568034158
+    [user_id] => 15
+    [login_limit] => 3600
+)
+
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:トップ画面へ繊維
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:index.php
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:SESSION情報を表示
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568034158
+    [user_id] => 15
+    [login_limit] => 3600
+)
+
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:検証環境
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:クエリ成功。
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:ログインユーザ情報
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/avatar/bfe8ab323532c734f48143ca5d75e1a198930f2b.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:検索値:
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:並び順:0
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:getMes(search) =
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:検証環境
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:SQL
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:クエリ成功。
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:SQLエラーを取得
+[09-Sep-2019 22:02:38 Asia/Tokyo] deb:投稿一覧
+[09-Sep-2019 22:02:40 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:40 Asia/Tokyo] deb:menu
+[09-Sep-2019 22:02:40 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:44 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:44 Asia/Tokyo] deb:pass_edit.php
+[09-Sep-2019 22:02:44 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:46 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:46 Asia/Tokyo] deb:menu
+[09-Sep-2019 22:02:46 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:index.php
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:SESSION情報を表示
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568034158
+    [user_id] => 15
+    [login_limit] => 3600
+)
+
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:検証環境
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:クエリ成功。
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:ログインユーザ情報
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:Array
+(
+    [user_id] => 15
+    [name] => test
+    [email] => takaku.genki021@gmail.com
+    [avatar] => img/avatar/bfe8ab323532c734f48143ca5d75e1a198930f2b.png
+    [create_date] => 2019-09-08 10:43:27
+)
+
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:検索値:
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:並び順:0
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:getMes(search) =
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:検証環境
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:SQL
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:クエリ成功。
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:SQLエラーを取得
+[09-Sep-2019 22:02:47 Asia/Tokyo] deb:投稿一覧
+[09-Sep-2019 22:02:48 Asia/Tokyo] deb:セッションID：rci9v3tflmt5dtilmc75pv2nla
+[09-Sep-2019 22:02:48 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[09-Sep-2019 22:02:48 Asia/Tokyo] deb:現在時刻:1568034168
+[09-Sep-2019 22:02:48 Asia/Tokyo] deb:未ログインユーザ
+[09-Sep-2019 22:02:50 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:50 Asia/Tokyo] deb:パスワードリセット
+[09-Sep-2019 22:02:50 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:パスワードリセット
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:POST送信開始
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:空チェッククリア
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:バリデーションクリア
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:検証環境
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:クエリ成功。
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:登録ユーザー
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:リセットキー:MWUG
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:メール送信完了
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:メール送信処理完了
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:Array
+(
+    [reset_key] => MWUG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1568035972
+    [msg_once] => メールを送信しました
+)
+
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:パスワードリセット画面
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 22:02:52 Asia/Tokyo] deb:Array
+(
+    [reset_key] => MWUG
+    [reset_email] => takaku.genki021@gmail.com
+    [reset_key_limit] => 1568035972
+    [msg_once] => 
+)
+
