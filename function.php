@@ -9,7 +9,9 @@ ini_set('error_log','php.log');
 $debug_flg = true;
 function debug($str){
   global $debug_flg;
-  if($debug_flg){
+  // 本番環境でもログを出力する
+  // if($debug_flg){
+    if(true){
     error_log('deb:' . $str);
   }
 }
@@ -206,10 +208,21 @@ function showErrMsg($key){
  * DB
 * -------------------------------- */
 function CreateDBH(){
-
-  $dsn = ($debug_flg === 'true') ? 'mysql:dbname=Portfolio1;host=localhost;charset=utf8' : 'mysql:dbname=LAA1093375-portfolio1;host=mysql140.phy.lolipop.lan;charset=utf8';
-  $user = 'root';
-  $password = 'root';
+  global $debug_flg;
+  if($debug_flg === true){
+    //検証環境
+    debug('検証環境');
+    $dsn = 'mysql:dbname=Portfolio1;host=localhost;charset=utf8';
+    $user = 'root';
+    $password = 'root';
+  }else{
+    //本番環境
+    debug('本番環境');
+    $dsn = 'mysql:dbname=LAA1093375-portfolio1;host=mysql140.phy.lolipop.lan;charset=utf8';
+    debug('DSN = ' .$dsn);
+    $user = 'LAA1093375';
+    $password = 'SCHB';
+  }
   $options = array(
     // デフォルトフェッチモードを連想配列形式に設定
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,

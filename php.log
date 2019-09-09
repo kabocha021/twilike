@@ -1260,3 +1260,33 @@ Stack trace:
 [08-Sep-2019 21:11:02 Asia/Tokyo] deb:クエリ成功。
 [08-Sep-2019 21:11:02 Asia/Tokyo] deb:SQLエラーを取得
 [08-Sep-2019 21:11:02 Asia/Tokyo] deb:投稿一覧
+[09-Sep-2019 21:30:38 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 21:30:38 Asia/Tokyo] deb:index.php
+[09-Sep-2019 21:30:38 Asia/Tokyo] deb:--------------------------------
+[09-Sep-2019 21:30:38 Asia/Tokyo] deb:SESSION情報を表示
+[09-Sep-2019 21:30:38 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1567944498
+    [user_id] => 10
+    [login_limit] => 3600
+    [msg_once] => 
+)
+
+[09-Sep-2019 21:30:38 Asia/Tokyo] deb:ログイン済みだが有効期限切れ
+[09-Sep-2019 21:30:38 Asia/Tokyo] PHP Notice:  Undefined variable: debug_flg in /Applications/MAMP/htdocs/PH1/function.php on line 210
+[09-Sep-2019 21:30:39 Asia/Tokyo] エラー発生:SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:ログインユーザ情報
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:検索値:
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:並び順:0
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:getMes(search) =
+[09-Sep-2019 21:30:39 Asia/Tokyo] PHP Notice:  Undefined variable: debug_flg in /Applications/MAMP/htdocs/PH1/function.php on line 210
+[09-Sep-2019 21:30:39 Asia/Tokyo] エラー発生:SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:投稿一覧
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:セッションID：3t5h02rs0cdiacjb9bognd2fgb
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:$_SESSION[]:Array
+(
+)
+
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:現在時刻:1568032239
+[09-Sep-2019 21:30:39 Asia/Tokyo] deb:未ログインユーザ
