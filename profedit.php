@@ -81,7 +81,8 @@
             <p>ドラッグ&ドロップ</p>
             <input type="hidden" name="MAX_FILE_SIZE" value="10485760">
             <input type="file" name="avatar" class="input-file">
-            <img src="<?php echoStr($avatar); ?>" alt="" class="avatar-img">
+            <!-- <img src="<?php echoStr($avatar); ?>" alt="" class="avatar-img"> -->
+            <img src="" alt="" class="avatar-img">
             <!-- <img src="img/avator/defult4.jpg" alt="" class="avatar-img"> -->
           </div>
           <div class="desc">

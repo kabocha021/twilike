@@ -298,11 +298,12 @@ textarea{
 }
 
 /* --------------------------------
- * リアルタイムプレビュー
+ * ライブプレビュー
 * -------------------------------- */
 .img-label{
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 .img-area{
   float: left;
@@ -330,7 +331,6 @@ textarea{
   cursor: pointer;
   opacity: 0;
   z-index: 2;
-
 }
 .img-area .avatar-img{
   position: absolute;
