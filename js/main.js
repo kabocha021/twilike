@@ -43,11 +43,11 @@ window.onload = function () {
   // ドラッグ中は点線を表示
   $inputFile.addEventListener('dragover', function () {
     $imgLabel.classList.add("dash");
-    // console.log($inputFile);
+    console.log($inputFile);
   });
   $inputFile.addEventListener('dragleave', function () {
     $imgLabel.classList.remove("dash");
-    // console.log($inputFile);
+    console.log($inputFile);
   });
 
   $inputFile.addEventListener('change', function () {

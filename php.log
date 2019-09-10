@@ -4300,3 +4300,344 @@ Stack trace:
 [10-Sep-2019 23:00:48 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
 [10-Sep-2019 23:00:48 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
 [10-Sep-2019 23:00:48 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:10:54 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:11:48 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:12:06 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:15:04 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:15:07 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:16:33 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:17:03 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:17:19 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:18:13 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:18:41 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:プロフィール編集
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:SESSION情報を表示
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568124516
+    [user_id] => 3
+    [login_limit] => 2592000
+    [msg_once] => 
+)
+
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:検証環境
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:クエリ成功。
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:ログインユーザ情報
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:FILES情報
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:--------------------------------
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[10-Sep-2019 23:18:42 Asia/Tokyo] deb:--------------------------------
