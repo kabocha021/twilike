@@ -81,6 +81,8 @@
                 <p class="head">
                   <span class="name"><?php echo sanitize($value['name']); ?></span>
                   <span class="date"><?php echo $value['send_date']; ?></span>
+                  <i class="fas fa-star fav"></i>
+
                 </p>
                 <p class="comment"><?php echo sanitize($value['comment']); ?></p>
               </div>

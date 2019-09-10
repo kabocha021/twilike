@@ -1,7 +1,7 @@
     <footer id="js-footer" class="footer">
-      <p>Copyright ©︎2019 Sample Site</p>
+      <p>Copyright©︎ takahisa.work portfolio site1</p>
     </footer>
-  <!-- wrapper??? -->
+  <!-- wrapperクラス -->
     <div>
     <script src ="js/jquery-2.2.2.min.js"></script>
   <script src="js/main.js"></script>
