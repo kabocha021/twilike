@@ -1,4 +1,11 @@
 window.onload = function () {
+  var debugFlg = true;
+
+  // デバッグ用ログ出力
+  function debug(str) {
+    if (debugFlg === true)
+      console.log(str);
+  }
   // console.log('start js');
 
   // セッションから渡される文字列を表示
@@ -38,32 +45,45 @@ window.onload = function () {
   //ライブプレビュー
   var $imgLabel = document.querySelector(".img-label");
   var $inputFile = document.querySelector(".input-file");
-  console.log($inputFile);
+  // console.log($inputFile);
 
   // ドラッグ中は点線を表示
-  $inputFile.addEventListener('dragover', function () {
-    $imgLabel.classList.add("dash");
-    console.log($inputFile);
-  });
-  $inputFile.addEventListener('dragleave', function () {
-    $imgLabel.classList.remove("dash");
-    console.log($inputFile);
-  });
+  if ($imgLabel !== null && $inputFile !== null) {
+    $inputFile.addEventListener('dragover', function () {
+      $imgLabel.classList.add("dash");
+      // console.log($inputFile);
+      debug($inputFile);
+    });
+    $inputFile.addEventListener('dragleave', function () {
+      $imgLabel.classList.remove("dash");
+      // console.log($inputFile);
+    });
 
-  $inputFile.addEventListener('change', function () {
-    $imgLabel.classList.remove("dash");
-    var file = this.files[0];
-    var $img = this.nextElementSibling;
-    console.log(file);
-    console.log($img);
-    fileReader = new FileReader();
-    fileReader.onload = function (event) {
-      console.log(event.target.result);
-      $img.setAttribute("src", event.target.result);
-    };
-    fileReader.readAsDataURL(file);
-  });
+    $inputFile.addEventListener('change', function () {
+      $imgLabel.classList.remove("dash");
+      var file = this.files[0];
+      var $img = this.nextElementSibling;
+      // console.log(file);
+      // console.log($img);
+      fileReader = new FileReader();
+      fileReader.onload = function (event) {
+        console.log(event.target.result);
+        $img.setAttribute("src", event.target.result);
+      };
+      fileReader.readAsDataURL(file);
+    });
+  }
 
+  // ファボ昨日
+  var $fav = document.getElementsByClassName("js-fav");
+  if ($fav) {
+    for (var $i = 0; $i < $fav.length; $i++) {
+      $fav[$i].onclick = function () {
+        debug('click!');
+        this.classList.toggle('active');
+      }
+    }
+  }
 };
 
 
