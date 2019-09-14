@@ -386,13 +386,12 @@ function getFavFlg($u_id,$c_id){
     $data = array(':user_id' => $u_id, ':comment_id' => $c_id);
     $stmt = queryExe($dbh, $sql, $data);
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
-    // debug('array_shift=' .array_shift($result));
-    if(array_shift($result) > 0){
-      debug('ファボ済み');
-      return 1;
-    }else{
+    if(array_shift($result) === '0'){
       debug('ファボ無し');
       return 0;
+    }else{
+      debug('ファボ済み');
+      return 1;
     }    
   }catch (Exception $e){
   error_log('エラー発生:' . $e->getMessage());

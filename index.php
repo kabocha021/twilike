@@ -85,7 +85,7 @@
                   <!-- 投稿時刻 -->
                   <span class="date"><?php echo $value['send_date']; ?></span>
                   <!-- お気に入り追加機能 -->
-                  <i class="fas fa-star fav js-fav " data-id="<?php  echo $value['comment_id']; ?>"></i>
+                  <i class="fas fa-star fav js-fav <?php if(getFavFlg($_SESSION['user_id'],$value['comment_id']) === 1) echo 'active'; ?>" data-id="<?php  echo $value['comment_id']; ?>"></i>
 
                 </p>
                 <p class="comment"><?php echo sanitize($value['comment']); ?></p>
