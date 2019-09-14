@@ -267,11 +267,11 @@ function getMes($serch,$orderFlg){
   try{
     $dbh = createDBH();
     if(!empty($serch)){
-      $sql = 'SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.comment LIKE :serch AND C.delete_flg = 0 ORDER BY send_date ' .$order ;
+      $sql = 'SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.comment LIKE :serch AND C.delete_flg = 0 ORDER BY send_date ' .$order ;
 
       $data = array(':serch' => '%'.$serch.'%');
     }else{
-      $sql = 'SELECT C.user_id as user_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date ' .$order ;
+      $sql = 'SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date ' .$order ;
       $data = array();
     }
     debug('SQL');
@@ -376,4 +376,25 @@ function makeRandKey($len = 4){
     $key .= $str[mt_rand(0,35)];
   }
   return $key;
+}
+
+// ログインユーザーが対象コメントをお気に入り登録しているか判定
+function getFavFlg($u_id,$c_id){
+  try{
+    $dbh = createDBH();
+    $sql = 'SELECT COUNT(*) FROM FAVORITE WHERE user_id = :user_id AND comment_id = :comment_id';
+    $data = array(':user_id' => $u_id, ':comment_id' => $c_id);
+    $stmt = queryExe($dbh, $sql, $data);
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    // debug('array_shift=' .array_shift($result));
+    if(array_shift($result) > 0){
+      debug('ファボ済み');
+      return 1;
+    }else{
+      debug('ファボ無し');
+      return 0;
+    }    
+  }catch (Exception $e){
+  error_log('エラー発生:' . $e->getMessage());
+  }
 }

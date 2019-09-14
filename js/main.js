@@ -74,13 +74,31 @@ window.onload = function () {
     });
   }
 
-  // ファボ昨日
+  // ファボ
   var $fav = document.getElementsByClassName("js-fav");
   if ($fav) {
     for (var $i = 0; $i < $fav.length; $i++) {
       $fav[$i].onclick = function () {
         debug('click!');
-        this.classList.toggle('active');
+        // data属性を取得
+        var favCommentId = this.getAttribute('data-id');
+
+        // クリックされたDOMを保存しておく
+        $favTrg = this;
+        console.log($favTrg);
+
+        // ajaxで非同期通信
+        $.ajax({
+          type: "POST",
+          url: "ajax_fav.php",
+          data: { commentId: favCommentId }
+        }).done(function (data) {
+          console.log('Ajax Success');
+          // ファボアイコンの背景色をトグルで入れ替える
+          $favTrg.classList.toggle('active');
+        }).fail(function (data) {
+          console.log('Ajax Error');
+        });
       }
     }
   }

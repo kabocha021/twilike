@@ -72,6 +72,7 @@
       <?php 
         if(!empty($mesList)){
           foreach($mesList as $key => $value):
+            // debug(print_r($value,true));
       ?>
             <div class="conteiner <?php if($value['user_id'] === $_SESSION['user_id']) echo 'mine'; ?>">
               <div class="img-box">
@@ -84,7 +85,7 @@
                   <!-- 投稿時刻 -->
                   <span class="date"><?php echo $value['send_date']; ?></span>
                   <!-- お気に入り追加機能 -->
-                  <i class="fas fa-star fav js-fav"></i>
+                  <i class="fas fa-star fav js-fav " data-id="<?php  echo $value['comment_id']; ?>"></i>
 
                 </p>
                 <p class="comment"><?php echo sanitize($value['comment']); ?></p>
