@@ -387,10 +387,10 @@ function getFavFlg($u_id,$c_id){
     $stmt = queryExe($dbh, $sql, $data);
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
     if(array_shift($result) === '0'){
-      debug('ファボ無し');
+      // debug('ファボ無し');
       return 0;
     }else{
-      debug('ファボ済み');
+      // debug('ファボ済み');
       return 1;
     }    
   }catch (Exception $e){
