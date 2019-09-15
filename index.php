@@ -115,7 +115,7 @@
           <div class="block">
             <input class="send-button" type="submit" value="投稿" name="whisper">
           </div>
-        </form>ob_clean
+        </form>
         <h2 class="title">検索</h2>
         <form action="" method="get">
           <p class="err"><?php showErrMsg('name'); ?></p>
