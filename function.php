@@ -397,3 +397,4 @@ function getFavFlg($u_id,$c_id){
   error_log('エラー発生:' . $e->getMessage());
   }
 }
+
