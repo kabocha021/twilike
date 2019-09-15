@@ -1487,3 +1487,1451 @@ Stack trace:
 [14-Sep-2019 14:55:33 Asia/Tokyo] deb:クエリ成功。
 [14-Sep-2019 14:55:33 Asia/Tokyo] deb:検証環境
 [14-Sep-2019 14:55:33 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:index.php
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:SQL
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:00 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:index.php
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:SQL
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:09 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:index.php
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:SQL
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:11 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:12 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:12 Asia/Tokyo] deb:menu
+[14-Sep-2019 14:57:12 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:プロフィール編集
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:FILES情報
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:$userInfo[avatart] =img/avator/defult1.jpg
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:$avatar =img/avator/defult1.jpg
+[14-Sep-2019 14:57:14 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:15 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:15 Asia/Tokyo] deb:menu
+[14-Sep-2019 14:57:15 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:16 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:16 Asia/Tokyo] deb:pass_edit.php
+[14-Sep-2019 14:57:16 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:17 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:17 Asia/Tokyo] deb:menu
+[14-Sep-2019 14:57:17 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:index.php
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:SQL
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:18 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:index.php
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:SQL
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:index.php
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:SQL
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 14:57:45 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 14:57:46 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:30 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 15:01:30 Asia/Tokyo] deb:menu
+[14-Sep-2019 15:01:30 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:index.php
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:SQL
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 15:01:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:index.php
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:SQL
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:07:16 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:index.php
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:SQL
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:12 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:index.php
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:SQL
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:15:13 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:index.php
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:SQL
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:21:49 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:index.php
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:SQL
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:28:44 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:index.php
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:SQL
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:32 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:index.php
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:SQL
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:45 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:44:45 Asia/Tokyo] deb:menu
+[14-Sep-2019 16:44:45 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:index.php
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:SQL
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 16:44:47 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:index.php
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:SESSION情報を表示
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:Array
+(
+    [login_date] => 1568440533
+    [user_id] => 3
+    [login_limit] => 2592000
+)
+
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:ログイン済みかつ有効期限内ユーザ
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:ログインユーザ情報
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:Array
+(
+    [user_id] => 3
+    [name] => admin
+    [email] => test@admin
+    [avatar] => img/avator/defult1.jpg
+    [create_date] => 2019-08-31 11:18:46
+)
+
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検索値:
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:並び順:0
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:getMes(search) =
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:SQL
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:SELECT C.user_id as user_id,comment_id,avatar,name,comment,send_date FROM COMMENT AS C LEFT JOIN USERS AS U ON C.user_id = U.user_id WHERE C.delete_flg = 0 ORDER BY send_date DESC
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:SQLエラーを取得
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:投稿一覧
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:36 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:ajax_fav.php
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:POST送信開始(ファボ機能のPOST送信開始
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:コメントフラグ：1
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:39 Asia/Tokyo] deb:ファボ処理完了
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:ajax_fav.php
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:POST送信開始(ファボ機能のPOST送信開始
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:コメントフラグ：1
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:40 Asia/Tokyo] deb:ファボ処理完了
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:ajax_fav.php
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:POST送信開始(ファボ機能のPOST送信開始
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:コメントフラグ：1
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:41 Asia/Tokyo] deb:ファボ処理完了
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:ajax_fav.php
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:--------------------------------
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:POST送信開始(ファボ機能のPOST送信開始
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:コメントフラグ：1
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:検証環境
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:クエリ成功。
+[14-Sep-2019 17:14:42 Asia/Tokyo] deb:ファボ処理完了
