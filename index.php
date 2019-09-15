@@ -113,7 +113,7 @@
           <textarea name="comment" cols="30" rows="10" id="js-count" class="whisper-text" placeholder="メッセージ"></textarea>
           <p class="text-count"><span id="show-count">0</span>/140文字</p>
           <div class="block">
-            <input class="send-button" type="submit" value="つぶやく" name="whisper">
+            <input class="send-button" type="submit" value="投稿" name="whisper">
           </div>
         </form>
         <h2 class="title">検索</h2>
