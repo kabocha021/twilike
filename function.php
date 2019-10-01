@@ -53,7 +53,7 @@ session_save_path("/var/tmp/");
 ini_set('session.gc_maxlifetime', 60*60*24*30);
 ini_set('session.cookie_lifetime ', 60*60*24*30);
 session_start();
-session_regenerate_id();
+session_regenerate_id(); //セッションハイジャック対策
 
 function showSession(){
   debug('セッションID：'.session_id());
@@ -74,6 +74,7 @@ if(!empty($_SESSION['msg_once'])){
 /* --------------------------------
  * ログイン認証
 * -------------------------------- */
+//ログインユーザの場合、trueを返す
 function auth(){
   if(!empty($_SESSION['login_date'])){
     debug('SESSION情報を表示');
@@ -185,7 +186,7 @@ function validPassCheck($key,$pass){
 /* --------------------------------
  * 入力フォーム用
 * -------------------------------- */
-// サニタイズ
+// サニタイズ(XSS対策)
 function sanitize($str){
   // return $str;
   return htmlspecialchars($str, ENT_QUOTES);
@@ -213,6 +214,7 @@ function showErrMsg($key){
 /* --------------------------------
  * DB
 * -------------------------------- */
+// PDOオブジェクトでDB接続する
 function CreateDBH(){
   global $debug_flg;
   debug('デバッグフラグ：'.$debug_flg);
@@ -231,7 +233,7 @@ function CreateDBH(){
   $dbh = new PDO($dsn, $user, $password, $options);
   return $dbh;
 }
-
+// クエリ実行
 function queryExe($dbh, $sql, $data){
   $stmt = $dbh->prepare($sql);
   if(!$stmt->execute($data)){
@@ -249,6 +251,7 @@ function queryExe($dbh, $sql, $data){
 /* --------------------------------
  * ユーザー情報取得
 * -------------------------------- */
+//ユーザIDからユーザ情報を取得
 function getUser($id){
   try{
     $dbh = createDBH();
@@ -260,6 +263,7 @@ function getUser($id){
   error_log('エラー発生:' . $e->getMessage());
   }
 }
+// 投稿を全取得
 function getMes($serch,$orderFlg){
   debug('getMes(search) =' .$serch);
   $order = ($orderFlg === 0) ? 'DESC' : 'ASC';
@@ -290,9 +294,9 @@ function getMes($serch,$orderFlg){
 function sendMail($from, $to, $subject, $body){
     if(!empty($to) && !empty($subject) && !empty($body)){
 
-      mb_language("Japanese"); 
-      mb_internal_encoding("UTF-8"); 
-        
+      mb_language("Japanese");
+      mb_internal_encoding("UTF-8");
+
       $result = mb_send_mail($to, $subject, $body, "From: ".$from);
       if ($result) {
         debug('メール送信完了');
@@ -310,6 +314,7 @@ function sender(){
 /* --------------------------------
  * その他
 * -------------------------------- */
+// セッションに保存したメッセージを表示する
 function getSessionMsg(){
   if(!empty($_SESSION['msg_once'])){
     echo '<div id="js-show-msg">';
