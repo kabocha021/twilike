@@ -15,6 +15,12 @@ function debug($str){
     error_log('deb:' . $str);
   }
 }
+
+/* --------------------------------
+ * パスワードファイル読み込み
+* -------------------------------- */
+require('../../pass/pass.php');
+
 /* --------------------------------
  * 定型分
 * -------------------------------- */
@@ -121,7 +127,7 @@ function emailDuplicate($str){
     $data = array(':email' => $str);
     $stmt = queryExe($dbh, $sql, $data);
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
-    
+
     if(array_shift($result) > 0){
       global $err_msg;
       $err_msg['email'] = ERR08;
@@ -209,20 +215,13 @@ function showErrMsg($key){
 * -------------------------------- */
 function CreateDBH(){
   global $debug_flg;
-  if($debug_flg === true){
-    //検証環境
-    debug('検証環境');
-    $dsn = 'mysql:dbname=Portfolio1;host=localhost;charset=utf8';
-    $user = 'root';
-    $password = 'root';
-  }else{
-    //本番環境
-    debug('本番環境');
-    $dsn = 'mysql:dbname=LAA1093375-portfolio1;host=mysql140.phy.lolipop.lan;charset=utf8';
-    debug('DSN = ' .$dsn);
-    $user = 'LAA1093375';
-    $password = 'SCHB';
-  }
+  debug('デバッグフラグ：'.$debug_flg);
+  $dsn = getDSN($debug_flg);
+  $user = getDBUser($debug_flg);
+  $password = getDBPass($debug_flg);
+  // debug($dsn);
+  // debug($user);
+  // debug($password);
   $options = array(
     // デフォルトフェッチモードを連想配列形式に設定
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
