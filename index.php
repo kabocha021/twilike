@@ -4,10 +4,10 @@
   debug('index.php');
   debug('--------------------------------');
 
-  if(!auth()){
-    // 未ログインユーザーはログイン画面へ遷移
-    header('location:login.php');
-  }
+  // if(!auth()){
+  //   // 未ログインユーザーはログイン画面へ遷移
+  //   header('location:login.php');
+  // }
 
   // ログインユーザ情報を取得
   $userInfo = getUser($_SESSION['user_id']);
@@ -99,6 +99,7 @@
       </div>
       <div class="side-menu">
         <div class="prof">
+        <?php  if(auth()){ //ログイン済みの場合、プロフィーを表示 ?> 
         <h2 class="title">プロフィール</h2>
           <div class="img-box">
             <img src="<?php echo sanitize($userInfo['avatar']); ?>" alt="">            
@@ -116,6 +117,7 @@
             <input class="send-button" type="submit" value="投稿" name="whisper">
           </div>
         </form>
+        <?php } ?>
         <h2 class="title">検索</h2>
         <form action="" method="get">
           <p class="err"><?php showErrMsg('name'); ?></p>
